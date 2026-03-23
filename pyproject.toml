@@ -1,0 +1,11 @@
+[project]
+name = "chess-analyzer"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "chess>=1.10.0",
+    "google-adk>=1.27.2",
+    "requests>=2.31.0",
+    "resvg-python>=0.1.0",
+]

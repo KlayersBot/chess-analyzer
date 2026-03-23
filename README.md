@@ -1,21 +1,31 @@
-# Chess Analyzer
+# Chess Analyzer Agent
 
-A Python pipeline that pulls recent chess games from the Chess.com API, parses the PGN, generates visual board states using `python-chess`, and provides tactical commentary using Stockfish.
+An intelligent AI chess coach powered by Google's Agent Development Kit (ADK) and Gemini 3.1. It pulls recent chess games from the Chess.com API, analyzes the positions using Stockfish to detect subtle tactics and blunders, and generates a visual, move-by-move Markdown report with insightful commentary.
 
 ## Setup
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+uv sync
 ```
 
-You will also need to download a local binary for Stockfish and place it in this directory (or point the script to it).
+You will need a local binary for Stockfish placed in this directory (or update the engine path in `tools.py`). 
+
+*Note: As an ADK project using Application Default Credentials (ADC) / metadata service credentials, no `.env` file is necessary for Gemini API keys in the supported environment.*
 
 ## Usage
 
+You can interact with the AI Chess Coach in two ways:
+
+**1. Command Line Interface (CLI)**
 ```bash
-python analyze.py --user keith --engine /path/to/stockfish
+uv run adk run
 ```
 
-This generates `report.md` along with move-by-move PNG images in the `assets/` directory.
+**2. Local Web Interface**
+```bash
+uv run adk web
+```
+
+Once the interface starts, simply ask the agent:
+> *"Analyze the latest game for the user 'keith' and point out where I missed tactics."*
+
