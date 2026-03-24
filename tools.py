@@ -205,23 +205,23 @@ def analyze_next_move() -> str:
     else:
         delta = eval_before_val - eval_after_val
         
-    # Label heuristic
-    label = "Good"
+    # Label heuristic with emojis (chess.com style)
+    label = "Good 👍"
     if delta <= -3.0:
-        label = "Blunder"
+        label = "Blunder ❌"
     elif delta <= -1.0:
-        label = "Mistake"
+        label = "Mistake ❓"
     elif delta <= -0.5:
-        label = "Inaccuracy"
+        label = "Inaccuracy ⁈"
     elif actual_move_san == best_move_san:
-        label = "Best Move"
+        label = "Best Move ✅"
     elif delta >= 1.5 and -2.0 < eval_before_val < 2.0:
-        label = "Brilliant"
+        label = "Brilliant ‼️"
     
     move_info["move_label"] = label
     
     # Get Deep Commentary using gemini-2.5-pro for interesting moves
-    if label in ["Blunder", "Mistake", "Brilliant", "Great Move"]:
+    if any(tag in label for tag in ["Blunder", "Mistake", "Brilliant", "Great"]):
         try:
             client = genai.Client()
             prompt = f"""You are an expert Chess Grandmaster. 
