@@ -7,6 +7,7 @@ import io
 import os
 import json
 from resvg_python import svg_to_png
+from google import genai
 
 # Global state to allow the agent to step through the game one move at a time
 class GameState:
@@ -127,45 +128,153 @@ def analyze_next_move() -> str:
     move = GAME_STATE.moves[GAME_STATE.current_ply]
     
     move_number = (GAME_STATE.current_ply // 2) + 1
-    color_str = "White" if GAME_STATE.current_ply % 2 == 0 else "Black"
+    color_moved_str = "White" if GAME_STATE.current_ply % 2 == 0 else "Black"
+    color_moved = chess.WHITE if GAME_STATE.current_ply % 2 == 0 else chess.BLACK
     is_player_turn = ((GAME_STATE.current_ply % 2 == 0 and GAME_STATE.player_color == chess.WHITE) or 
                       (GAME_STATE.current_ply % 2 != 0 and GAME_STATE.player_color == chess.BLACK))
     
     move_info = {
         "status": "success",
         "move_number": move_number,
-        "color": color_str,
+        "color": color_moved_str,
         "is_player_turn": is_player_turn,
         "evaluation_before_move": None,
+        "evaluation_after_move": None,
+        "move_label": "Good",
+        "deep_commentary": None,
         "engine_recommended_move": None,
         "actual_move_played": None,
         "image_path": None
     }
     
-    # Analyze the position BEFORE the move is pushed to find the "best" recommended move
+    eval_before_val = 0.0
+    eval_after_val = 0.0
+    best_move_san = None
+    
+    # Analyze the position BEFORE the move is pushed
     if GAME_STATE.engine:
         try:
             info = GAME_STATE.engine.analyse(board, chess.engine.Limit(time=0.1))
-            score = info["score"].white() if GAME_STATE.player_color == chess.WHITE else info["score"].black()
-            cp = score.score(mate_score=10000)
+            # Always get relative to White for easier math
+            score_w = info["score"].white()
+            if score_w.score() is not None:
+                eval_before_val = score_w.score() / 100.0
+            else:
+                eval_before_val = 100.0 if score_w.mate() > 0 else -100.0
+            
+            # Keep evaluation relative to player for the old field if needed
+            score_player = info["score"].white() if GAME_STATE.player_color == chess.WHITE else info["score"].black()
+            cp = score_player.score(mate_score=10000)
             if cp is not None:
                 move_info["evaluation_before_move"] = cp / 100.0
             
             best_move = info.get("pv", [None])[0]
             if best_move:
-                move_info["engine_recommended_move"] = board.san(best_move)
+                best_move_san = board.san(best_move)
+                move_info["engine_recommended_move"] = best_move_san
         except Exception as e:
-            move_info["error"] = str(e)
+            move_info["error_before"] = str(e)
 
-    # Now push the move, record notation, and generate visual
-    move_info["actual_move_played"] = board.san(move)
+    # Now push the move
+    actual_move_san = board.san(move)
+    move_info["actual_move_played"] = actual_move_san
     board.push(move)
     
-    svg_data = chess.svg.board(board, orientation=GAME_STATE.player_color, lastmove=move)
+    mate_moves = None
+    # Analyze AFTER the move
+    if GAME_STATE.engine:
+        try:
+            info_after = GAME_STATE.engine.analyse(board, chess.engine.Limit(time=0.1))
+            score_w = info_after["score"].white()
+            mate_moves = score_w.mate()
+            if score_w.score() is not None:
+                eval_after_val = score_w.score() / 100.0
+            else:
+                eval_after_val = 100.0 if score_w.mate() > 0 else -100.0
+            
+            score_player = info_after["score"].white() if GAME_STATE.player_color == chess.WHITE else info_after["score"].black()
+            cp = score_player.score(mate_score=10000)
+            if cp is not None:
+                move_info["evaluation_after_move"] = cp / 100.0
+        except Exception as e:
+            move_info["error_after"] = str(e)
+
+    # Calculate Delta (from the perspective of the player who just moved)
+    if color_moved == chess.WHITE:
+        delta = eval_after_val - eval_before_val
+    else:
+        delta = eval_before_val - eval_after_val
+        
+    # Label heuristic
+    label = "Good"
+    if delta <= -3.0:
+        label = "Blunder"
+    elif delta <= -1.0:
+        label = "Mistake"
+    elif delta <= -0.5:
+        label = "Inaccuracy"
+    elif actual_move_san == best_move_san:
+        label = "Best Move"
+    elif delta >= 1.5 and -2.0 < eval_before_val < 2.0:
+        label = "Brilliant"
+    
+    move_info["move_label"] = label
+    
+    # Get Deep Commentary using gemini-2.5-pro for interesting moves
+    if label in ["Blunder", "Mistake", "Brilliant", "Great Move"]:
+        try:
+            client = genai.Client()
+            prompt = f"""You are an expert Chess Grandmaster. 
+The player ({color_moved_str}) just played {actual_move_san}.
+This move was evaluated as a {label}.
+Evaluation went from {eval_before_val:.2f} to {eval_after_val:.2f}.
+The engine's recommended best move was {best_move_san}.
+Here is the current FEN: {board.fen()}
+Provide a short, deeply insightful 2-3 sentence commentary on WHY this move was a {label}, focusing on the tactical or positional consequences. Do NOT just repeat the evaluation numbers, explain the chess ideas."""
+            response = client.models.generate_content(
+                model='gemini-2.5-pro',
+                contents=prompt,
+            )
+            move_info["deep_commentary"] = response.text.strip()
+        except Exception as e:
+            move_info["deep_commentary"] = f"Error getting deep commentary: {str(e)}"
+
+    # Generate composite SVG with Evaluation Bar
+    original_svg = str(chess.svg.board(board, orientation=GAME_STATE.player_color, lastmove=move))
+    if original_svg.startswith("<?xml"):
+        original_svg = original_svg.split("?>", 1)[1]
+        
+    # Map eval to 0..1
+    clamped_eval = max(-5.0, min(5.0, eval_after_val))
+    white_percentage = (clamped_eval + 5.0) / 10.0
+    bar_height = 390
+    white_pixels = int(bar_height * white_percentage)
+    black_pixels = bar_height - white_pixels
+    
+    if GAME_STATE.player_color == chess.WHITE:
+        white_y = black_pixels
+        black_y = 0
+        text_y = 380 if white_percentage > 0.5 else 20
+    else:
+        white_y = 0
+        black_y = white_pixels
+        text_y = 20 if white_percentage > 0.5 else 380
+
+    eval_text = f"{eval_after_val:+.1f}" if mate_moves is None else f"M{abs(mate_moves)}"
+    
+    composite_svg = f"""<svg viewBox="0 0 420 390" width="420" height="390" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="{black_y}" width="20" height="{black_pixels}" fill="#404040"/>
+    <rect x="0" y="{white_y}" width="20" height="{white_pixels}" fill="#f0f0f0"/>
+    <text x="10" y="195" font-size="14" text-anchor="middle" font-family="sans-serif" font-weight="bold" fill="{'black' if white_percentage > 0.5 else 'white'}" transform="rotate(-90 10 195)">{eval_text}</text>
+    <svg x="30" y="0" width="390" height="390">
+        {original_svg}
+    </svg>
+</svg>"""
+
     img_filename = f"move_{GAME_STATE.current_ply + 1:03d}.png"
     img_rel_path = os.path.join("assets", img_filename)
     img_path = os.path.join(GAME_STATE.game_dir, img_rel_path)
-    png_data = svg_to_png(str(svg_data))
+    png_data = svg_to_png(composite_svg)
     with open(img_path, "wb") as f:
         f.write(bytes(png_data))
         

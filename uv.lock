@@ -341,6 +341,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "chess" },
     { name = "google-adk" },
+    { name = "google-genai" },
     { name = "requests" },
     { name = "resvg-python" },
 ]
@@ -354,6 +355,7 @@ dev = [
 requires-dist = [
     { name = "chess", specifier = ">=1.10.0" },
     { name = "google-adk", specifier = ">=1.27.2" },
+    { name = "google-genai", specifier = ">=1.68.0" },
     { name = "requests", specifier = ">=2.31.0" },
     { name = "resvg-python", specifier = ">=0.1.0" },
 ]
