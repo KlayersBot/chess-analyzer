@@ -19,13 +19,6 @@ async def analyze_game(index, user):
         print(f"Game {index} analysis complete.")
     except Exception as e:
         print(f"Error analyzing game {index}: {e}")
-    finally:
-        if tools.GAME_STATE.engine:
-            tools.GAME_STATE.engine.quit()
-            tools.GAME_STATE.engine = None
-
-async def main():
-    await analyze_game(0, 'kar2on')
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(analyze_game())
