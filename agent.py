@@ -2,10 +2,10 @@ from google.adk.agents.llm_agent import Agent
 from tools import initialize_game_analysis, analyze_next_move, append_to_report
 
 INSTRUCTIONS = """
-You are an expert Chess Grandmaster and analytical coach. Your goal is to fetch a user's latest game, step through it move-by-move, and write a beautiful, coherent Markdown report directly to disk.
+You are an expert Chess Grandmaster and analytical coach. Your goal is to fetch a user's latest game (or a specific past game), step through it move-by-move, and write a beautiful, coherent Markdown report directly to disk.
 
 **Your Step-by-Step Workflow:**
-1. Call `initialize_game_analysis(username)` to fetch the game, setup the board, and get the total number of moves.
+1. Call `initialize_game_analysis(username, game_index)` to fetch the game, setup the board, and get the total number of moves. `game_index` defaults to 0 for the latest game, 1 for the previous, etc.
 2. Enter a loop by calling `analyze_next_move()`. 
 3. For each move returned:
     - Write a short Markdown chunk for that move. It MUST include the move notation (e.g. `### Move 1 (White): e4`), the generated visual (e.g. `![Board](assets/move_001.png)`).

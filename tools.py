@@ -18,48 +18,70 @@ class GameState:
         self.engine = None
         self.metadata = {}
         self.username = ""
+        self.game_dir = ""
+        self.report_filename = "report.md"
 
 GAME_STATE = GameState()
 
-def initialize_game_analysis(username: str) -> str:
-    """Fetches the latest game for the user and initializes the board for step-by-step analysis.
+def initialize_game_analysis(username: str, game_index: int = 0) -> str:
+    """Fetches a recent game for the user and initializes the board for step-by-step analysis.
     Call this FIRST. It returns the game metadata and total number of moves.
+    `game_index` defaults to 0 (latest game), 1 is the previous game, etc.
     """
     headers = {'User-Agent': 'ChessAnalyzerBot/1.0 (https://github.com/KlayersBot/chess-analyzer)'}
     archives_url = f"https://api.chess.com/pub/player/{username}/games/archives"
     resp = requests.get(archives_url, headers=headers)
-    resp.raise_for_status()
+    if resp.status_code == 404:
+        return json.dumps({"error": f"User '{username}' not found."})
+    try:
+        resp.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        return json.dumps({"error": f"Failed to fetch archives: {str(e)}"})
+    
     archives = resp.json().get('archives', [])
     if not archives:
         return json.dumps({"error": "No archives found."})
     
     pgn_string = None
-    # Look back through archives until we find a game
+    valid_games = []
+    
+    # Look back through archives until we find enough games
     for games_url in reversed(archives):
         games_resp = requests.get(games_url, headers=headers)
-        games_resp.raise_for_status()
+        try:
+            games_resp.raise_for_status()
+        except requests.exceptions.HTTPError:
+            continue
+            
         games = games_resp.json().get('games', [])
         
         for game in reversed(games):
             if game.get('rules') == 'chess' and game.get('pgn'):
-                pgn_string = game['pgn']
-                break
+                valid_games.append(game['pgn'])
+                if len(valid_games) > game_index:
+                    break
         
-        if pgn_string:
+        if len(valid_games) > game_index:
             break
             
-    if not pgn_string:
-        return json.dumps({"error": "No valid games found."})
+    if len(valid_games) <= game_index:
+        return json.dumps({"error": f"Could not find game at index {game_index}."})
+        
+    pgn_string = valid_games[game_index]
 
     pgn = io.StringIO(pgn_string)
     game = chess.pgn.read_game(pgn)
     
-    os.makedirs("assets", exist_ok=True)
+    game_dir = os.path.join("games", f"{username}_{game_index}")
+    assets_dir = os.path.join(game_dir, "assets")
+    os.makedirs(assets_dir, exist_ok=True)
     
     GAME_STATE.board = game.board()
     GAME_STATE.moves = list(game.mainline_moves())
     GAME_STATE.current_ply = 0
     GAME_STATE.username = username
+    GAME_STATE.game_dir = game_dir
+    GAME_STATE.report_filename = os.path.join(game_dir, f"report_{username}_{game_index}.md")
     
     GAME_STATE.metadata = {
         "White": game.headers.get('White', '?'),
@@ -77,7 +99,7 @@ def initialize_game_analysis(username: str) -> str:
             GAME_STATE.engine = chess.engine.SimpleEngine.popen_uci(engine_path)
             
     # Reset the report file
-    with open("report.md", "w") as f:
+    with open(GAME_STATE.report_filename, "w") as f:
         f.write(f"# Chess Game Analysis: {GAME_STATE.metadata['White']} vs {GAME_STATE.metadata['Black']}\n\n")
         f.write(f"- **Result:** {GAME_STATE.metadata['Result']}\n")
         f.write(f"- **Date:** {GAME_STATE.metadata['Date']}\n")
@@ -85,6 +107,7 @@ def initialize_game_analysis(username: str) -> str:
             
     return json.dumps({
         "status": "ready",
+        "report_filename": GAME_STATE.report_filename,
         "total_moves": len(GAME_STATE.moves),
         "metadata": GAME_STATE.metadata
     })
@@ -140,12 +163,13 @@ def analyze_next_move() -> str:
     
     svg_data = chess.svg.board(board, orientation=GAME_STATE.player_color, lastmove=move)
     img_filename = f"move_{GAME_STATE.current_ply + 1:03d}.png"
-    img_path = os.path.join("assets", img_filename)
+    img_rel_path = os.path.join("assets", img_filename)
+    img_path = os.path.join(GAME_STATE.game_dir, img_rel_path)
     png_data = svg_to_png(str(svg_data))
     with open(img_path, "wb") as f:
         f.write(bytes(png_data))
         
-    move_info["image_path"] = img_path
+    move_info["image_path"] = img_rel_path
     
     GAME_STATE.current_ply += 1
     return json.dumps(move_info)
@@ -154,6 +178,6 @@ def append_to_report(markdown_content: str) -> str:
     """Appends your commentary and visuals for the current move to the report file.
     Use this after each move so you don't have to hold the entire report in your memory.
     """
-    with open("report.md", "a") as f:
+    with open(GAME_STATE.report_filename, "a") as f:
         f.write(markdown_content + "\n\n")
-    return "Successfully appended to report.md"
+    return f"Successfully appended to {GAME_STATE.report_filename}"
