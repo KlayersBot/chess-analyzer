@@ -1,6 +1,6 @@
 venv/
 __pycache__/
-assets/
-report.md
 stockfish
 .venv/
+/assets/
+/report.md
