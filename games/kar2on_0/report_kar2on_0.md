@@ -5,271 +5,272 @@
 - **Opening:** French Defense Knight Variation
 
 ### Move 1 (White): e4
-**Engine Recommendation:** `e4`. This move immediately stakes a claim in the center, opening lines for the queen and king's bishop, and prepares for rapid development.
-![Board](assets/move_001.png)
+<p align="center"><img src="assets/move_001.png" alt="Board" width="400"></p>
+
+The engine recommends **e4**, a standard opening move to control the center and open lines for the queen and king's bishop. White played **e4** which is a good developing move.
 
 
 ### Move 1 (Black): e6
-**Engine Recommendation:** `e5`. The engine prefers `e5` to directly challenge White's central control, leading to open and tactical positions.
-**Player's Choice:** Black plays `e6`, initiating the French Defense. This is a solid and strategic choice, aiming to undermine White's center with a later ...d5, while preparing to develop the kingside pieces.
-![Board](assets/move_002.png)
+<p align="center"><img src="assets/move_002.png" alt="Board" width="400"></p>
+
+The engine recommended **e5** to directly challenge White's center. However, Black played **e6**, which is the French Defense, a solid and strategic opening that prepares to challenge White's e4 pawn with ...d5.
 
 
 ### Move 2 (White): Nf3
-**Engine Recommendation:** `Nc3`. The engine suggests `Nc3` to develop a piece, support the central e4 pawn, and prepare for further central expansion.
-**Player's Choice:** White plays `Nf3`. This is a perfectly good developing move, controlling the central d4 and e5 squares, and preparing for kingside castling. It's a flexible choice that doesn't commit to supporting e4 with a pawn directly, leaving options open.
-![Board](assets/move_003.png)
+<p align="center"><img src="assets/move_003.png" alt="Board" width="400"></p>
+
+The engine recommended **d4** to directly support the e4 pawn and expand in the center. White played **Nf3**, developing a knight to a strong central square and controlling d4 and e5.
 
 
 ### Move 2 (Black): d6
-**Engine Recommendation:** `d5`. The engine strongly recommends `d5` to immediately challenge White's central e4 pawn, which is the main idea of the French Defense. This creates tension and opens lines for Black's pieces.
-**Player's Choice:** Black plays `d6`. This is a more cautious approach, supporting the e5 square but not directly fighting for the center. While not a blunder, it allows White more freedom to expand in the center without immediate pressure. This often leads to a slightly more passive position for Black.
-![Board](assets/move_004.png)
+<p align="center"><img src="assets/move_004.png" alt="Board" width="400"></p>
+
+The engine recommended **d5** to strike at the center immediately, which is characteristic of the French Defense. Black chose **d6**, a more restrained move that still prepares to develop the light-squared bishop and control e5.
 
 
 ### Move 3 (White): Bc4
-**Engine Recommendation:** `d4`. The engine suggests `d4` to immediately seize control of the center, creating a powerful pawn duo on e4 and d4 and restricting Black's development.
-**Player's Choice:** White plays `Bc4`. This develops the bishop to a strong diagonal, attacking the vulnerable f7 square and preparing for kingside castling. While a good developing move, it allows Black to potentially challenge the center more easily than if White had played `d4`.
-![Board](assets/move_005.png)
+<p align="center"><img src="assets/move_005.png" alt="Board" width="400"></p>
+
+The engine recommended **d4** to build a strong pawn center. White played **Bc4**, developing the bishop to an active square where it eyes the f7 pawn, a common target in early openings.
 
 
 ### Move 3 (Black): c6
-**Engine Recommendation:** `d5`. The engine consistently advocates for `d5` to challenge White's central e4 pawn and open up the position for Black's pieces, which is thematic in the French Defense.
-**Player's Choice:** Black plays `c6`. This move prepares for a future `d5` but is somewhat passive. It also takes away the c6 square from the knight, which is a common developing square. Black is falling further behind in central control and development.
-![Board](assets/move_006.png)
+<p align="center"><img src="assets/move_006.png" alt="Board" width="400"></p>
+
+The engine recommended **d5** to aggressively challenge White's central pawn. Black played **c6**, a preparatory move for d5, aiming for a solid pawn structure and potential queen-side expansion.
 
 
 ### Move 4 (White): Nc3
-**Engine Recommendation:** `d4`. The engine still prefers `d4` to establish a commanding central pawn presence, exploiting Black's passive setup.
-**Player's Choice:** White plays `Nc3`. This is a solid developing move, bringing another knight into the game and supporting the e4 pawn. While `d4` might have been more ambitious, `Nc3` helps build a strong foundation for White's position.
-![Board](assets/move_007.png)
+<p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
+
+The engine recommended **d4** to occupy the center. White chose to develop another piece with **Nc3**, controlling central squares and preparing to castle.
 
 
 ### Move 4 (Black): a6
-**Engine Recommendation:** `b5`. The engine suggests `b5` to directly challenge White's Bc4, potentially opening the b-file or creating counterplay on the queenside.
-**Player's Choice:** Black plays `a6`. This is a prophylactic move, preparing for a future `b5` to kick the White bishop or gain space on the queenside. While it can be useful, in this position, it's a bit slow and doesn't address Black's central issues, allowing White to continue developing without immediate pressure.
-![Board](assets/move_008.png)
+<p align="center"><img src="assets/move_008.png" alt="Board" width="400"></p>
+
+The engine recommended **b5** to challenge White's active bishop on c4. Black played **a6**, a prophylactic move that prepares to expand on the queenside with ...b5, but without immediate threat.
 
 
 ### Move 5 (White): O-O
-**Engine Recommendation:** `d4`. The engine continues to advocate for `d4` to establish a firm central presence and expand White's advantage.
-**Player's Choice:** White plays `O-O`. This is an excellent move, bringing the king to safety and developing the rook. King safety is paramount, and castling early is generally a good practice.
-![Board](assets/move_009.png)
+<p align="center"><img src="assets/move_009.png" alt="Board" width="400"></p>
+
+The engine continued to recommend **d4** for central control. White instead prioritized king safety and rook development by castling kingside with **O-O**.
 
 
 ### Move 5 (Black): a5
-**Engine Recommendation:** `b5`. The engine suggests `b5` to directly challenge White's Bc4, potentially gaining tempo and space.
-**Player's Choice:** Black plays `a5`. This move prepares `b4`, aiming to dislodge White's knight on c3 or weaken the queenside. However, Black is spending valuable time on the queenside while neglecting central development and king safety, which could become problematic.
-![Board](assets/move_010.png)
+<p align="center"><img src="assets/move_010.png" alt="Board" width="400"></p>
+
+The engine recommended **b5** to immediately challenge the white bishop on c4. Black played **a5**, preventing White's b4 and further preparing a queenside expansion.
 
 
 ### Move 6 (White): d4
-**Engine Recommendation:** `d4`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `d4`. This is an excellent move that seizes control of the center, establishing a powerful pawn duo on e4 and d4. This significantly strengthens White's position, creating space for pieces and restricting Black's development. This move capitalizes on Black's delayed central challenges.
-![Board](assets/move_011.png)
+<p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
+
+White finally played the engine's long-standing recommendation of **d4**, taking firm control of the center and opening lines for the queen and bishop.
 
 
 ### Move 6 (Black): b5
-**Engine Recommendation:** `Be7`. The engine suggests `Be7` to develop a piece, prepare for kingside castling, and alleviate some of the pressure on Black's kingside.
-**Player's Choice:** Black plays `b5`. This move attacks White's bishop on c4, gaining a tempo. However, it further prioritizes queenside expansion over essential development and king safety, which is crucial given White's strong central presence. Black still needs to get pieces out and castle.
-![Board](assets/move_012.png)
+<p align="center"><img src="assets/move_012.png" alt="Board" width="400"></p>
+
+The engine recommended **Nf6** for standard development. Black instead played **b5**, attacking White's active bishop on c4 and initiating queenside expansion.
 
 
 ### Move 7 (White): Be2
-**Engine Recommendation:** `Bd3`. The engine suggests `Bd3` to keep the bishop active on a central diagonal, controlling important squares and maintaining pressure.
-**Player's Choice:** White plays `Be2`. This is a solid, safe retreat for the bishop, defending the d3 square and potentially preparing for future plans like f4 or developing the queen. It's a slightly more passive choice than `Bd3`, but it doesn't give Black any immediate counterplay.
-![Board](assets/move_013.png)
+<p align="center"><img src="assets/move_013.png" alt="Board" width="400"></p>
+
+The engine recommended **Bd3** to keep the bishop on a more active diagonal. White played **Be2**, a safer and more modest developing square for the bishop, which prepares to castle kingside.
 
 
 ### Move 7 (Black): a4
-**Engine Recommendation:** `b4`. The engine suggests `b4` to directly challenge White's knight on c3, creating tactical possibilities and opening lines on the queenside.
-**Player's Choice:** Black plays `a4`. This is another queenside pawn push, aiming to gain space on that flank. However, it still avoids addressing the central tension and getting the king to safety, which is becoming increasingly urgent. White has a significant lead in development and central control.
-![Board](assets/move_0014.png)
+<p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
+
+The engine recommended **b4** to immediately challenge White's bishop on c4. Black played **a4**, pushing the pawn and further restricting White's queenside development and creating an outpost on b3.
 
 
 ### Move 8 (White): b3
-**Engine Recommendation:** `a3`. The engine suggests `a3` to prevent Black's b4 pawn push, maintaining the integrity of White's queenside pawn structure.
-**Player's Choice:** White plays `b3`. This move directly prevents Black from playing ...b4, which would attack White's knight on c3. It also reinforces the c4 square. This is a solid prophylactic move, although `a3` would have also served the same purpose while keeping the b-pawn more flexible.
-![Board](assets/move_015.png)
+<p align="center"><img src="assets/move_015.png" alt="Board" width="400"></p>
+
+The engine recommended **Bd3** to develop the bishop actively. White played **b3**, supporting the c4 pawn and preparing to develop the light-squared bishop to b2.
 
 
 ### Move 8 (Black): Bb7
-**Engine Recommendation:** `axb3`. The engine suggests `axb3` to create an open a-file for Black's rook and to simplify the pawn structure on the queenside.
-**Player's Choice:** Black plays `Bb7`. This develops the bishop to a good diagonal, where it eyes White's central pawns and exerts pressure on the long diagonal.
-![Board](assets/move_016.png)
+<p align="center"><img src="assets/move_016.png" alt="Board" width="400"></p>
+
+The engine recommended **axb3** to capture the newly advanced white pawn. Black chose **Bb7**, developing the bishop to a good diagonal where it eyes White's center.
 
 
 ### Move 9 (White): d5
-**Engine Recommendation:** `d5`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `d5`. This is a very strong move that decisively seizes more central territory. It restricts Black's pieces, particularly the knight on b8, and opens up the diagonal for White's queen and bishop. This move further increases White's already significant central advantage.
-![Board](assets/move_017.png)
+<p align="center"><img src="assets/move_017.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **d5**, a powerful central pawn push that challenges Black's pawn structure and opens up lines for White's pieces.
 
 
 ### Move 9 (Black): Ba6
-**Engine Recommendation:** `Be7`. The engine suggests `Be7` for Black to develop the bishop, prepare for kingside castling, and bring the king to safety.
-**Player's Choice:** Black plays `Ba6`. This develops the bishop and attacks White's c4 pawn. However, the bishop isn't very active on a6, and Black is still neglecting king safety, which is a significant concern at this stage of the game.
-![Board](assets/move_0018.png)
+<p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
+
+The engine recommended **axb3** to capture the white pawn. Black played **Ba6**, developing the bishop but moving it to a less active square. It might be aiming to trade off White's c1-h6 diagonal bishop or aiming for b5.
 
 
 ### Move 10 (White): dxc6
-**Engine Recommendation:** `dxe6`. The engine suggests `dxe6` to open the e-file for White's rook and to remove Black's central pawn, while also gaining a tempo on the black queen.
-**Player's Choice:** White plays `dxc6`. White captures the pawn, winning material. However, this move opens the d-file, which Black might be able to use for counterplay with the queen. The engine's recommendation of `dxe6` would have been even stronger, as it creates more threats and simplifies the central pawn structure in White's favor.
-![Board](assets/move_019.png)
+<p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
+
+The engine recommended **Nd4** to bring a knight into a strong central position. White chose **dxc6**, capturing Black's pawn and opening the d-file, creating a passed pawn that can be a long-term asset.
 
 
 ### Move 10 (Black): Nxc6
-**Engine Recommendation:** `Nxc6`. Black plays the engine's top recommendation!
-**Player's Choice:** Black plays `Nxc6`. This recaptures the pawn and develops the knight to a central square, which is a good strategic decision.
-![Board](assets/move_020.png)
+<p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
+
+Black played the engine's recommended **Nxc6**, recapturing the pawn and developing the knight to a central square.
 
 
 ### Move 11 (White): Nxb5
-**Engine Recommendation:** `Bxb5`. The engine suggests `Bxb5` to capture the pawn, develop the bishop to an active square, and open the b-file for potential rook activity.
-**Player's Choice:** White plays `Nxb5`. White captures the pawn, winning material. However, the knight on b5 is somewhat out of play on the side of the board. `Bxb5` would have been a more active developing move, keeping the bishop in the center and creating more threats.
-![Board](assets/move_021.png)
+<p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
+
+The engine recommended **Bxb5**. White chose **Nxb5**, capturing a pawn and continuing development.
 
 
 ### Move 11 (Black): Bxb5
-**Engine Recommendation:** `Nf6`. The engine suggests `Nf6` to develop the knight, control central squares, and prepare for kingside castling.
-**Player's Choice:** Black plays `Bxb5`. This is a good move. Black recaptures the knight, equalizing material, and removing the knight on b5 which was somewhat annoying. This exchange simplifies the position and helps Black catch up in development.
-![Board](assets/move_022.png)
+<p align="center"><img src="assets/move_022.png" alt="Board" width="400"></p>
+
+The engine recommended **Nf6** for development. Black chose to recapture with **Bxb5**, keeping the pawn structure intact and putting the bishop on an active diagonal.
 
 
 ### Move 12 (White): Bxb5
-**Engine Recommendation:** `Bxb5`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `Bxb5`. This recaptures the bishop and re-establishes material equality. More importantly, it opens the b-file for White's rook, which can now become active.
-![Board](assets/move_023.png)
+<p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **Bxb5**, recapturing the bishop and opening the b-file for the rook, which can become active quickly.
 
 
 ### Move 12 (Black): Qc7
-**Engine Recommendation:** `Qd7`. The engine suggests `Qd7` to connect the rooks and prepare for queenside castling, while also supporting the d5 square.
-**Player's Choice:** Black plays `Qc7`. This develops the queen to an active square, putting pressure on White's d5 pawn and eyeing the long diagonal. This is a reasonable developing move, although `Qd7` might have been slightly more flexible for connecting the rooks.
-![Board](assets/move_024.png)
+<p align="center"><img src="assets/move_024.png" alt="Board" width="400"></p>
+
+The engine recommended **Ne7** to develop the knight and prepare for castling. Black played **Qc7**, developing the queen and connecting the rooks. This also adds pressure on the c-file.
 
 
 ### Move 13 (White): Nd4
-**Engine Recommendation:** `Nd4`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `Nd4`. This is an excellent move that brings the knight to a central outpost, attacking Black's queen and controlling key squares. This move significantly increases White's initiative and puts Black under pressure.
-![Board](assets/move_025.png)
+<p align="center"><img src="assets/move_025.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **Nd4**, centralizing the knight and putting pressure on Black's kingside and central squares.
 
 
 ### Move 13 (Black): Kd8
-**Engine Recommendation:** `Ne7`. The engine suggests `Ne7` to block the check from the knight, develop a piece, and prepare for kingside castling.
-**Player's Choice:** Black plays `Kd8`. This is a critical mistake. Instead of blocking the check with `Ne7`, Black moves the king to d8, which not only prevents castling but also blocks the rook on a8, severely hindering Black's development and king safety. White now has a significant advantage.
-![Board](assets/move_026.png)
+<p align="center"><img src="assets/move_026.png" alt="Board" width="400"></p>
+
+The engine recommended **Ne7** to develop the knight and castle kingside. Black played **Kd8**, moving the king to a seemingly safer square but losing valuable tempo and leaving the king still exposed in the center. This is a significant inaccuracy, as the king is still far from safety, and Black falls further behind in development.
 
 
 ### Move 14 (White): Nxc6+
-**Engine Recommendation:** `Bxc6`. The engine suggests `Bxc6` to win material and further improve White's position.
-**Player's Choice:** White plays `Nxc6+`. This is a brilliant tactical move! White plays a fork, attacking both Black's king and rook, winning the rook. This move decisively capitalizes on Black's uncastled king and poor development, leading to a huge material advantage for White.
-![Board](assets/move_027.png)
+<p align="center"><img src="assets/move_027.png" alt="Board" width="400"></p>
+
+The engine recommended **Bxc6**, which would win a pawn. White played the even stronger **Nxc6+**, a powerful tactical shot that wins material and exploits Black's exposed king, forcing a response and keeping the initiative.
 
 
 ### Move 14 (Black): Kc8
-**Engine Recommendation:** `Kc8`. Black plays the engine's top recommendation!
-**Player's Choice:** Black plays `Kc8`. This move takes the king out of check. However, Black will still lose the rook on a8, resulting in a significant material deficit.
-![Board](assets/move_028.png)
+<p align="center"><img src="assets/move_028.png" alt="Board" width="400"></p>
+
+Black was forced to respond to the check with **Kc8**, moving the king to an even more exposed square.
 
 
 ### Move 15 (White): Nd4
-**Engine Recommendation:** `Qe2`. The engine suggests `Qe2` to develop the queen, connect the rooks, and prepare for further kingside expansion.
-**Player's Choice:** White plays `Nd4`. White brings the knight back to a strong central square, maintaining control and keeping the pressure on Black's position. This is a good move to keep the initiative.
-![Board](assets/move_029.png)
+<p align="center"><img src="assets/move_029.png" alt="Board" width="400"></p>
+
+The engine recommended **Qf3** to bring the queen into the attack. White played **Nd4**, centralizing the knight again and putting pressure on Black's position, particularly the f5 and c6 squares.
 
 
 ### Move 15 (Black): Rb8
-**Engine Recommendation:** `Nf6`. The engine suggests `Nf6` to develop the knight, protect the kingside, and challenge White's central control.
-**Player's Choice:** Black plays `Rb8`. While it develops the rook, it places it on a passive square where it has little impact on the game. Black desperately needs to develop pieces and get the king to safety, and this move does not help with either of those goals.
-![Board](assets/move_030.png)
+<p align="center"><img src="assets/move_030.png" alt="Board" width="400"></p>
+
+The engine recommended **Nf6** to develop a piece and try to get the king to safety. Black played **Rb8**, aiming to activate the rook on the open b-file, but neglecting to address the central threats and king safety.
 
 
 ### Move 16 (White): Bxa4
-**Engine Recommendation:** `Rb1`. The engine suggests `Rb1` to activate the rook on the open b-file, putting pressure on Black's position.
-**Player's Choice:** White plays `Bxa4`. White captures a pawn, further increasing the material advantage. This is a solid move that capitalizes on Black's exposed queenside.
-![Board](assets/move_031.png)
+<p align="center"><img src="assets/move_031.png" alt="Board" width="400"></p>
+
+The engine recommended **bxa4**. White played **Bxa4**, capturing the pawn and opening the a-file for the rook, increasing the pressure on Black's queenside.
 
 
 ### Move 16 (Black): e5
-**Engine Recommendation:** `Nf6`. The engine suggests `Nf6` to develop the knight, protect the kingside, and bring some stability to Black's position.
-**Player's Choice:** Black plays `e5`. This move attempts to break up White's central pawn structure but comes at a significant cost. It further opens up the position around Black's uncastled king, and creates more targets for White's pieces. This only exacerbates Black's problems.
-![Board](assets/move_032.png)
+<p align="center"><img src="assets/move_032.png" alt="Board" width="400"></p>
+
+The engine recommended **Nf6** to develop and bring the king to safety. Black played **e5**, attempting to challenge White's central control but weakening the d5 square and potentially creating new targets for White's pieces.
 
 
 ### Move 17 (White): Nb5
-**Engine Recommendation:** `Nb5`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `Nb5`. This is a powerful move that attacks Black's queen and creates a menacing threat with the knight. Black is forced to react, further disrupting any attempts to develop or secure the king.
-![Board](assets/move_033.png)
+<p align="center"><img src="assets/move_033.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **Nb5**, a powerful move that attacks the Black queen on c7 and the d6 pawn, creating immediate threats and increasing White's advantage.
 
 
 ### Move 17 (Black): Qe7
-**Engine Recommendation:** `Qe7`. Black plays the engine's top recommendation!
-**Player's Choice:** Black plays `Qe7`. This move defends the queen and tries to address the immediate threat from White's knight. However, Black is still in a very difficult position due to the exposed king and underdeveloped pieces.
-![Board](assets/move_034.png)
+<p align="center"><img src="assets/move_034.png" alt="Board" width="400"></p>
+
+Black played the engine's recommended **Qe7**, retreating the queen to safety and defending the d6 pawn. However, this allows White to maintain the initiative.
 
 
 ### Move 18 (White): Nxd6+
-**Engine Recommendation:** `Qf3`. The engine suggests `Qf3` to bring the queen into the attack and create more threats.
-**Player's Choice:** White plays `Nxd6+`. This is another strong move by White, winning a pawn and delivering a check. This further exposes Black's king and increases White's material advantage. Black is now in a desperate situation.
-![Board](assets/move_035.png)
+<p align="center"><img src="assets/move_035.png" alt="Board" width="400"></p>
+
+The engine recommended **Kh1** to improve king safety. White played **Nxd6+**, a powerful tactical blow that wins a pawn and checks Black's king again, forcing a response and increasing White's material advantage.
 
 
 ### Move 18 (Black): Qxd6
-**Engine Recommendation:** `Qxd6`. Black plays the engine's top recommendation!
-**Player's Choice:** Black plays `Qxd6`. This recaptures the knight, but Black's king remains highly exposed, and the material disadvantage is significant.
-![Board](assets/move_036.png)
+<p align="center"><img src="assets/move_036.png" alt="Board" width="400"></p>
+
+Black played the engine's recommended **Qxd6**, recapturing the knight. However, Black's king remains exposed and vulnerable in the center.
 
 
 ### Move 19 (White): Qxd6
-**Engine Recommendation:** `Qe2`. The engine suggests `Qe2` to bring the queen to an active square and prepare for further attacks.
-**Player's Choice:** White plays `Qxd6`. White captures Black's queen, winning a huge amount of material. This move effectively ends the game, as Black has no hope of recovering from such a large material deficit.
-![Board](assets/move_037.png)
+<p align="center"><img src="assets/move_037.png" alt="Board" width="400"></p>
+
+The engine recommended **Qe2** to develop the queen and maintain the pressure. White played **Qxd6**, exchanging queens and simplifying the position, while still maintaining a material advantage.
 
 
 ### Move 19 (Black): Bxd6
-**Engine Recommendation:** `Bxd6`. Black plays the engine's top recommendation!
-**Player's Choice:** Black plays `Bxd6`. This recaptures the queen but leaves Black with a severely disadvantaged position.
-![Board](assets/move_038.png)
+<p align="center"><img src="assets/move_038.png" alt="Board" width="400"></p>
+
+Black played the engine's recommended **Bxd6**, recapturing the queen and completing the queen exchange. This brings the bishop to an active square.
 
 
 ### Move 20 (White): Be3
-**Engine Recommendation:** `Be3`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `Be3`. This develops the bishop to an active square, attacking Black's rook on a8 and creating more threats.
-![Board](assets/move_039.png)
+<p align="center"><img src="assets/move_039.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **Be3**, developing the bishop to a strong central square, defending the c1 square, and controlling important diagonals.
 
 
 ### Move 20 (Black): Nf6
-**Engine Recommendation:** `Nf6`. The engine suggests `Nf6` to develop the knight, protect the kingside, and bring some stability to Black's position.
-**Player's Choice:** Black plays `Nf6`. This develops the knight to a central square and defends the f7 pawn. However, Black's position remains dire due to the significant material deficit and exposed king.
-![Board](assets/move_040.png)
+<p align="center"><img src="assets/move_040.png" alt="Board" width="400"></p>
+
+Black played the engine's recommended **Nf6**, developing the knight and attacking White's e4 pawn. This brings a much-needed piece into the game.
 
 
 ### Move 21 (White): f3
-**Engine Recommendation:** `f3`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `f3`. This move defends the e4 pawn and creates an escape square for the king, further solidifying White's position and preparing for further attacks.
-![Board](assets/move_041.png)
+<p align="center"><img src="assets/move_041.png" alt="Board" width="400"></p>
+
+The engine recommended **Rfd1** to develop the rook to the open d-file. White played **f3**, defending the e4 pawn but slightly weakening the kingside pawn structure around the king.
 
 
 ### Move 21 (Black): g6
-**Engine Recommendation:** `Kd8`. The engine suggests `Kd8` to get the king to a safer square and try to connect the rooks.
-**Player's Choice:** Black plays `g6`. This move further weakens Black's kingside pawn structure, creating new targets for White's attack. It does not help with king safety or development, and makes Black's position even more precarious.
-![Board](assets/move_042.png)
+<p align="center"><img src="assets/move_042.png" alt="Board" width="400"></p>
+
+The engine recommended **Kd8** to try and improve king safety. Black played **g6**, further weakening the kingside pawn structure but perhaps preparing to fianchetto the dark-squared bishop.
 
 
 ### Move 22 (White): Rfd1
-**Engine Recommendation:** `Rfd1`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `Rfd1`. This develops the rook to the open d-file, putting pressure on Black's exposed king and creating further threats. This move strengthens White's attack and takes advantage of Black's weak position.
-![Board](assets/move_043.png)
+<p align="center"><img src="assets/move_043.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **Rfd1**, developing the rook to the open d-file and increasing pressure on Black's d-pawn and the d7 square.
 
 
 ### Move 22 (Black): Rb6
-**Engine Recommendation:** `Rd8`. The engine suggests `Rd8` to defend the d-file and connect the rooks, trying to bring some stability to Black's position.
-**Player's Choice:** Black plays `Rb6`. This move moves the rook to a relatively passive square, where it has little impact on the game. Black continues to neglect central control and king safety, allowing White to build up a decisive attack.
-![Board](assets/move_044.png)
+<p align="center"><img src="assets/move_044.png" alt="Board" width="400"></p>
+
+The engine recommended **Ba3** to put pressure on White's queenside. Black played **Rb6**, bringing the rook to an active square and defending the b-pawn.
 
 
 ### Move 23 (White): Bxb6
-**Engine Recommendation:** `Bxb6`. White plays the engine's top recommendation!
-**Player's Choice:** White plays `Bxb6`. White captures Black's rook, further increasing the overwhelming material advantage. This move essentially ends the game, as Black has no way to recover from such a loss.
-![Board](assets/move_045.png)
+<p align="center"><img src="assets/move_045.png" alt="Board" width="400"></p>
+
+White played the engine's recommended **Bxb6**, capturing the rook and further increasing White's material advantage. This is a decisive blow.
 
 
