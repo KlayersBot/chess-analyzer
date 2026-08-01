@@ -23,9 +23,9 @@ Played **d4**.
 
 
 
-### Move 2 (Black): Nf6 - Best Move ✅
+### Move 2 (Black): Nf6 - Good 👍
 <p align="center"><img src="assets/move_004.png" alt="Board" width="400"></p>
-Played **Nf6**.
+Played **Nf6**. The engine recommended **e5**.
 
 
 
@@ -115,13 +115,13 @@ Played **O-O**. The engine recommended **Bg7**.
 
 ### Move 10 (White): O-O - Good 👍
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Played **O-O**. The engine recommended **Qe2**.
+Played **O-O**. The engine recommended **c3**.
 
 
 
 ### Move 10 (Black): Be6 - Mistake ❓
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Black's Be6 is a tactical blunder, immediately exposed to White's Bc4. White can simply capture the bishop with Bxe6, forcing Black's queen to recapture on e6. This centralizes Black's queen prematurely, making it a vulnerable target for White's developing knights (e.g., Nd4), costing Black crucial tempi and hindering their development.
+By playing **...Be6**, Black voluntarily invites **Bxe6**, which permanently shatters their own pawn structure and leaves a chronically weak, doubled pawn on the e-file. Instead of completing development harmoniously with the engine's recommended **...Nc6**, this move hands White a clear static target and severely compromises Black's long-term king safety. White can now easily reposition their pieces—such as bringing the knight to f3 or the queen to e2—to ruthlessly exploit the newly created dark-square weaknesses.
 
 
 
@@ -139,6 +139,6 @@ Played **fxe6**.
 
 ### Move 12 (White): Qf3 - Blunder ❌
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Qf3 is a blunder because it immediately exposes White's queen to attack, allowing Black to gain crucial tempo and launch a devastating kingside offensive. Black can play **...Nc6**, attacking the undefended queen and forcing it to retreat, likely to an awkward square like h3, where it then becomes a target for Black's **...g5** pawn push. This opens the g-file for Black's rook, ripping apart White's kingside defenses and leading to a forced and overwhelming attack.
+White's move is a severe tactical oversight that completely ignores the open f-file, placing the queen directly into the line of fire of the f8-rook. After the simple capture ...Rxf3, White is forced to surrender the queen for a mere rook, instantly throwing away a promising position that could have been safely maintained with the prophylactic Qe2.
 
 

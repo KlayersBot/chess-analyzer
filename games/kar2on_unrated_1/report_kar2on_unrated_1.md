@@ -61,7 +61,7 @@ Played **Nc3**. The engine recommended **c3**.
 
 ### Move 5 (Black): d5 - Mistake ❓
 <p align="center"><img src="assets/move_010.png" alt="Board" width="400"></p>
-Black's `...d5` in this French Advance setup is a mistake because it passively reinforces an already cramped central pawn structure, allowing White to maintain a significant space advantage and central control with the e5 pawn. Instead of timidly solidifying a restricted position, Black should actively undermine White's pawn chain with the typical `...c5` break, directly challenging the d4 square and creating counterplay for improved piece mobility.
+By playing **...d5**, Black prematurely opens the center while their king remains uncastled, immediately inviting the tactical strike **1. Nxe5!** which wins a crucial central pawn. This capture not only exploits the undefended e5-pawn but also prepares a devastating kingside attack via Qh5+, taking advantage of the weakened f7 and g6 squares. The recommended **...c5** would have kept the center closed and contested key central squares, giving Black the necessary time to safely develop their pieces.
 
 
 
@@ -95,7 +95,7 @@ Played **d4**.
 
 
 
-### Move 8 (Black): Nbd7 - Inaccuracy ⁈
+### Move 8 (Black): Nbd7 - Good 👍
 <p align="center"><img src="assets/move_016.png" alt="Board" width="400"></p>
 Played **Nbd7**. The engine recommended **Bd6**.
 
@@ -109,13 +109,13 @@ Played **Qe2**.
 
 ### Move 9 (Black): Bd6 - Blunder ❌
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
-The move Bd6 is a blunder because it immediately enables White's decisive central break with **dxe5**. This initiates a forced tactical sequence where both of Black's recapture options lead to significant material loss. If Black plays **...Nxe5**, White delivers **Qxe5+**, forcing a block or king move, and then wins the h8-rook with **Qxh8**; alternatively, if Black plays **...Bxe5**, White can play **Nf7+**, forking the king and queen, and again winning the h8-rook after **Nxh8**.
+By placing the bishop on d6 instead of e7, Black fatally fails to shield the open e-file from the X-ray pressure of the white queen. This oversight permits an immediate, devastating discovered check with **11. Nc6+**, which forces the black king to react while simultaneously trapping and winning the queen on d8. Developing the bishop to e7 was mandatory to block this vertical threat, secure the king, and safely prepare for castling.
 
 
 
 ### Move 10 (White): Nf7+ - Blunder ❌
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Despite the alluring appearance of a triple fork, White's Nf7+ is a profound blunder because the knight is immediately lost for insufficient compensation. This tactical miscalculation liquidates White's substantial advantage, handing Black a decisive material and positional edge. The premature sacrifice leaves White's active pieces disconnected and lacks any compelling follow-up threats, thereby transforming a winning position into a losing one.
+While `Nf7+` looks like a winning discovered check, it fails because the f7-square is adjacent to the king, allowing Black to simply play `Kxf7`—capturing the checking knight and escaping the e-file danger. Conversely, the engine's recommended `Nc6+` is a lethal blow; because the knight on c6 cannot be captured (as any such move by Black is illegal due to the active check on the e-file), Black is forced to block the check and surrender their queen on the very next move.
 
 
 
@@ -125,21 +125,21 @@ Played **Kxf7**.
 
 
 
-### Move 11 (White): O-O - Mistake ❓
+### Move 11 (White): O-O - Inaccuracy ⁈
 <p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
-White's O-O is a significant positional mistake, as it's a tempo-losing move that allows Black to consolidate their exposed king on f7, surrendering a critical opportunity. The recommended Nxd5 would have immediately removed the crucial f6 knight, a key defender, creating tactical weaknesses and maintaining intense pressure against Black's uncastled monarch, a chance White now misses.
+Played **O-O**. The engine recommended **Nxd5**.
 
 
 
-### Move 11 (Black): Re8 - Best Move ✅
+### Move 11 (Black): Re8 - Good 👍
 <p align="center"><img src="assets/move_022.png" alt="Board" width="400"></p>
-Played **Re8**.
+Played **Re8**. The engine recommended **c6**.
 
 
 
-### Move 12 (White): Qf3 - Good 👍
+### Move 12 (White): Qf3 - Best Move ✅
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Played **Qf3**. The engine recommended **Qd3**.
+Played **Qf3**.
 
 
 
@@ -175,7 +175,7 @@ Played **Nxe4**. The engine recommended **Rxe4**.
 
 ### Move 15 (White): Nf6 - Mistake ❓
 <p align="center"><img src="assets/move_029.png" alt="Board" width="400"></p>
-The move Nf6 is a severe tactical blunder as it immediately hangs the White Knight, allowing Black to capture it for free with either Nd7xf6 or Ne4xf6. This direct loss of a full Knight without any compensation fundamentally cripples White's position, as it provides no counterplay or positional improvements to offset such a significant material deficit and consequently shifts the game into a decisively losing state.
+By playing **Nf6**, you voluntarily trigger an exchange that simplifies the game to Black's immense benefit, allowing them to easily consolidate their active pieces without any struggle. Retiring the knight to **Ne3** would have kept a vital piece on the board to challenge Black's dominant, centralized $e4$-knight and fortify your own vulnerable dark squares. Instead, this premature leap relieves the central tension and deprives your defensive setup of its most flexible coordinator.
 
 
 

@@ -23,9 +23,9 @@ Played **Nf3**.
 
 
 
-### Move 2 (Black): Nf6 - Good 👍
+### Move 2 (Black): Nf6 - Best Move ✅
 <p align="center"><img src="assets/move_004.png" alt="Board" width="400"></p>
-Played **Nf6**. The engine recommended **Nc6**.
+Played **Nf6**.
 
 
 
@@ -107,7 +107,7 @@ Played **a3**. The engine recommended **c3**.
 
 
 
-### Move 9 (Black): Ng4 - Inaccuracy ⁈
+### Move 9 (Black): Ng4 - Good 👍
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
 Played **Ng4**. The engine recommended **Bg4**.
 
@@ -125,9 +125,9 @@ Played **Nf6**.
 
 
 
-### Move 11 (White): d4 - Best Move ✅
+### Move 11 (White): d4 - Good 👍
 <p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
-Played **d4**.
+Played **d4**. The engine recommended **c3**.
 
 
 
@@ -157,7 +157,7 @@ Played **Qxd4**.
 
 ### Move 13 (Black): h5 - Mistake ❓
 <p align="center"><img src="assets/move_026.png" alt="Board" width="400"></p>
-Black's h5 is a critical mistake as it dangerously weakens the kingside pawns around the still-uncastled king, creating potential targets and opening lines without any compensatory development. This move squanders a crucial tempo that should have been spent on securing the king with O-O or developing the remaining major pieces, leaving Black's king highly exposed to White's already active queen and bishop.
+By pushing the h-pawn instead of securing the king with 14...O-O, Black critically delays development in an open position and permanently surrenders control of the g5-square. White's immediate 15.Bg5 creates a paralyzing pin on the f6-knight that can no longer be challenged or kicked by ...h6, leaving Black's kingside defensively compromised. With the black king now stuck in the center, White is primed to launch a decisive central breakthrough with an eventual e4-e5 strike.
 
 
 

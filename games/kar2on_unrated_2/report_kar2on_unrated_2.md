@@ -43,17 +43,17 @@ Played **g6**. The engine recommended **e5**.
 
 ### Move 4 (White): Bg5 - Good 👍
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **Bg5**. The engine recommended **f4**.
+Played **Bg5**. The engine recommended **Be3**.
 
 
 
-### Move 4 (Black): Bg7 - Good 👍
+### Move 4 (Black): Bg7 - Best Move ✅
 <p align="center"><img src="assets/move_008.png" alt="Board" width="400"></p>
-Played **Bg7**. The engine recommended **c6**.
+Played **Bg7**.
 
 
 
-### Move 5 (White): e5 - Good 👍
+### Move 5 (White): e5 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_009.png" alt="Board" width="400"></p>
 Played **e5**. The engine recommended **Qd2**.
 
@@ -85,7 +85,7 @@ Played **Rxd1**.
 
 ### Move 7 (Black): Ng4 - Mistake ❓
 <p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
-Black's `Ng4` is a significant mistake as it vacates the f6 square, critically weakening the kingside and leaving the uncastled king exposed. White can immediately exploit this with `8. e6`, which initiates a forced sequence leading to decisive material gain. For example, after `8...fxe6 9. Nxe6`, White forks Black's Queen and Rook, securing a full Rook and a winning advantage.
+By leaping to g4, the knight abandons control over the critical d5-square, allowing White to immediately unleash the powerful **Nd5!** which creates an overwhelming double-threat against the vulnerable c7 and e7 pawns. Had Black opted for the patient **...Nfd7**, they would have kept their position compact, ready to blunt any central aggression with a timely ...f6 or ...c6. Instead, the g4-knight is left positionally stranded on the kingside flank while Black's center and queenside rapidly collapse.
 
 
 
@@ -107,21 +107,21 @@ Played **Nd5**.
 
 
 
-### Move 9 (Black): Na6 - Inaccuracy ⁈
+### Move 9 (Black): Na6 - Mistake ❓
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
-Played **Na6**. The engine recommended **O-O**.
+By placing the knight on the rim with `...Na6`, you fall directly into a tactical disaster, as White can immediately play `Bxa6` to liquidate the only defender of the c7-square and unleash a decisive royal fork. Instead, the engine's recommended `...Kd8` was a vital prophylactic defense, stepping off the dangerous e-file to protect the weak e7-pawn while rendering White's central pressure harmless.
 
 
 
 ### Move 10 (White): f4 - Mistake ❓
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-White's f4 is a serious tactical blunder, immediately losing a pawn without compensation. The advanced f4-pawn is undefended and falls directly to Black's active knight on e5. This material loss further exacerbates White's already exposed King position on e1, opening the e-file and severely weakening the f2 square, leaving White strategically worse with a permanent material disadvantage.
+By playing **f4**, you missed the opportunity to execute the decisive deflection **Bxa6**, which would have eliminated the sole defender of the critical c7-square and forced an immediate collapse of Black's position. Instead, this premature pawn thrust allows Black to comfortably untangle with **...Nc6**, relocating their centralized knight to perfectly reinforce both the e7 and c7 weaknesses. Consequently, the immediate tactical pressure evaporates, allowing Black to consolidate and neutralize your space advantage.
 
 
 
 ### Move 10 (Black): Nc6 - Mistake ❓
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Black's 10...Nc6 is a grave tactical blunder because it allows White to unleash the devastating sacrifice 11.Nf6+. This forces Black to choose between losing the Queen immediately (after 11...Ke7 12.Nxd8) or surrendering an exchange (Rook for Knight) and exposing their king to a relentless attack after 11...gxf6 12.Bxf6. This creates an immediate and decisive material deficit along with irreparable positional damage to Black's kingside.
+By playing ...Nc6 instead of evicting the powerful d5-knight with ...c6, Black fails to realize that their knight on a6 was the sole, fragile defender of the critical c7-fork. This blunder allows the crushing tactical shot **Bxa6!**, exploiting the fact that recapturing with ...bxa6 fails immediately to **Nxc7+**, winning the a8-rook. By neglecting this defensive priority, Black’s queenside structure completely implodes, leaving them facing both decisive material loss and a strategically ruined position.
 
 
 

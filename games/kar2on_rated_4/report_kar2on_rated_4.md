@@ -31,13 +31,13 @@ Played **Nf6**.
 
 ### Move 3 (White): Bc4 - Mistake ❓
 <p align="center"><img src="assets/move_005.png" alt="Board" width="400"></p>
-Playing `3. Bc4` is a tactical blunder that immediately leaves the central e4 pawn undefended, allowing Black's forceful `3...Nxe4`. White is then faced with the unpleasant choice of either losing a pawn for nothing or further weakening their position and tempo by having to move the bishop again after Black's `...Nf6` re-attack. This grants Black a significant material and developmental advantage right out of the opening.
+By prematurely developing the bishop to c4 instead of defending with 3. Nc3, White leaves the e4-pawn completely unprotected. Because Black has already played the solidifying ...d6, any tactical justifications for sacrificing this pawn (such as standard f7-sacrifices or quick Qe2 tricks) are completely neutralized. Black can simply grab the central pawn with 3...Nxe4, leaving White with zero dynamic compensation for a crucial material deficit.
 
 
 
 ### Move 3 (Black): g6 - Mistake ❓
 <p align="center"><img src="assets/move_006.png" alt="Board" width="400"></p>
-Black's g6 is a significant mistake because it completely misses the crucial tactical opportunity to capture White's undefended e4 pawn with 3...Nxe4. This active capture would have forced White into difficult, defensive lines, creating imbalances and granting Black a substantial initiative through development and potential pawn structure advantages. Instead, g6 is a slow, passive move that allows White to easily consolidate their central pawn on e4 with d3 or Nc3, thus squandering Black's early advantage and turning a favorable position into one where White gains the upper hand.
+By passing up the free e4-pawn, Black missed a critical opportunity to seize the initiative and disrupt White's development. Furthermore, the passive ...g6 creates immediate tactical liabilities around the f7-square, where White can now launch a highly disruptive assault with Ng5, forcing Black into awkward defensive concessions.
 
 
 
@@ -91,7 +91,7 @@ Played **Nbd7**. The engine recommended **Nfd7**.
 
 ### Move 8 (White): Nxf7 - Mistake ❓
 <p align="center"><img src="assets/move_015.png" alt="Board" width="400"></p>
-The Nxf7 sacrifice is a critical mistake because White gives up a full Knight for only a pawn without sufficient compensation. While the move exposes Black's king, White lacks the immediate, forceful follow-up or decisive attacking pieces required to create a mating threat or regain the sacrificed material. This leaves White significantly down a piece with no adequate compensation, allowing Black to consolidate their extra material and eventually convert the advantage.
+By playing `Nxf7`, White initiates a highly unfavorable transaction, trading two active minor pieces for Black's rook and a pawn before completing their own development. In this middlegame structure, Black’s minor pieces will quickly dominate the central squares and out-coordinate White's forces, while White's uncastled king and passive rooks will struggle to find any coordination. Castling (`O-O`) was essential to secure the king and consolidate White's spatial advantage, rather than rushing into a self-damaging tactical skirmish.
 
 
 
@@ -119,13 +119,13 @@ Played **O-O**.
 
 
 
-### Move 10 (Black): b6 - Good 👍
+### Move 10 (Black): b6 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
 Played **b6**. The engine recommended **Nb6**.
 
 
 
-### Move 11 (White): Qe2 - Good 👍
+### Move 11 (White): Qe2 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
 Played **Qe2**. The engine recommended **Qf3**.
 
@@ -145,25 +145,25 @@ Played **Bg5**. The engine recommended **Re1**.
 
 ### Move 12 (Black): c5 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_024.png" alt="Board" width="400"></p>
-Played **c5**. The engine recommended **Nf8**.
+Played **c5**. The engine recommended **e6**.
 
 
 
-### Move 13 (White): d5 - Good 👍
+### Move 13 (White): d5 - Best Move ✅
 <p align="center"><img src="assets/move_025.png" alt="Board" width="400"></p>
-Played **d5**. The engine recommended **Rad1**.
+Played **d5**.
 
 
 
 ### Move 13 (Black): Nxd5 - Mistake ❓
 <p align="center"><img src="assets/move_026.png" alt="Board" width="400"></p>
-Black's `13... Nxd5` is a severe tactical blunder as it captures a pawn on d5 but leaves the newly positioned knight completely undefended. White can simply recapture this knight with either `14. Nxd5` (using the c3-Knight) or `14. Qxd5` (using the e2-Queen), winning a full knight for a pawn. This material gain for White (a net +2 points) creates a decisive advantage, significantly weakening Black's position and opening lines for White's attack.
+By capturing on d5, Black voluntarily opens up the center while their king is dangerously exposed on f7 and the e7-pawn remains a backward, glaring weakness. After White’s natural recapture with Nxd5, Black's defense immediately collapses to Rad1, which pins the d5-bishop and exploits the awkward coordination of the loose knight on d7 and the king. Instead, ...h6 was essential to put the question to White's active dark-squared bishop, defusing the immediate pressure and buying Black the tempo needed to stabilize their position.
 
 
 
 ### Move 14 (White): Qf3+ - Blunder ❌
 <p align="center"><img src="assets/move_027.png" alt="Board" width="400"></p>
-Qf3+ is a blunder because it immediately forces Black's King to the safer g8 square, simultaneously leaving White's actively placed Bishop on g5 completely undefended. After Black's necessary retreat with ...Kg8, White's Bishop is lost to a simple capture by Black's knight on d5, surrendering significant material for no compensation. This tactical oversight drastically shifts the evaluation, turning a strong position for White into a losing one.
+Instead of winning clean material with the tactical liquidation `Nxd5`, White’s hasty check on f3 backfires spectacularly. It allows Black to play the powerful interposition `...N5f6`, which simultaneously blocks the check on the f-file and vacates the d5-square, unleashing the b7-bishop against the newly exposed White queen. White is suddenly left with a misplaced queen and a coordinated opponent, handing Black a decisive tactical and developmental advantage.
 
 
 
@@ -175,31 +175,31 @@ Played **N7f6**.
 
 ### Move 15 (White): Rad1 - Good 👍
 <p align="center"><img src="assets/move_029.png" alt="Board" width="400"></p>
-Played **Rad1**. The engine recommended **Bxf6**.
+Played **Rad1**. The engine recommended **Rfe1**.
 
 
 
 ### Move 15 (Black): e6 - Mistake ❓
 <p align="center"><img src="assets/move_030.png" alt="Board" width="400"></p>
-Black's e6 is a critical mistake that immediately allows White to launch a decisive attack with the tactical shot **Bxe6!**. This bishop sacrifice forces a recapture that exposes Black's already vulnerable king and opens the f-file, enabling White to follow with Rd6 and a devastating rook sacrifice on f6. This forced sequence leads to a losing material exchange or an unstoppable checkmate, completely squandering Black's previously strong position.
+By playing **...e6**, Black missed the dynamic **...Nxc3**, a tactical shot that exploits the loose d1-rook and immediately disrupts White's coordination before they can mount an offensive. Instead, this passive pawn push is a severe positional concession that tragically walls in Black's own active light-squared bishop on b7 while failing to resolve the agonizing pins on the f6- and d5-knights. This blunder allows White to effortlessly consolidate, maintain their central pressure, and begin exploiting the newly weakened light squares around Black's exposed king.
 
 
 
 ### Move 16 (White): Bxf6 - Blunder ❌
 <p align="center"><img src="assets/move_031.png" alt="Board" width="400"></p>
-White's move `Bxf6` is a blunder because it sacrifices a valuable bishop for just a pawn without adequate compensation. While it temporarily opens the f-file and forces Black's King to move (e.g., after `16... Kxf6 17. Qxf6+ Ke7`), White lacks the immediate, forcing follow-up attacks to capitalize on the exposed monarch. Consequently, Black's King finds relative safety, leaving White a piece down for only a pawn, a significant material deficit that Black can convert into a winning advantage.
+By playing **Bxf6**, White prematurely releases the central tension and voluntarily dissolves the crucial pin on the d5-knight. Instead of utilizing **Ne4** to keep Black's position cramped and maintain a strong central grip, this exchange allows Black to recapture comfortably, neutralizing White's pressure and fully activating their formidable bishop pair. Consequently, Black’s light-squared bishop on b7 is completely unleashed, instantly transforming a balanced position into a highly active, strategically winning initiative for Black.
 
 
 
 ### Move 16 (Black): Bxf6 - Mistake ❓
 <p align="center"><img src="assets/move_032.png" alt="Board" width="400"></p>
-Black's `Bxf6` was a mistake primarily because it exchanged away a crucial dark-squared bishop, weakening the critical dark squares around the exposed King on f7. With White's Queen on f3 and Rook on f1 aggressively targeting the f-file, Black needed to preserve the defensive and dynamic potential of their dark-squared bishop to maintain king safety and tactical flexibility. Capturing with the Queen (had it been possible, as indicated by the engine) would have retained this vital piece.
+By capturing with the bishop, Black steps into a self-inflicted, paralyzing pin on the f-file while their d5-knight simultaneously remains pinned on the d-file. This lack of coordination allows White's knight to leap to e4 with devastating effect, piling coordinate pressure on the immobilized f6-bishop which Black cannot easily defend. Recapturing with the queen (`...Qxf6`) would have forced a queen trade, completely neutralizing White's tactical threats and allowing Black's centralized pieces to dominate the ensuing endgame.
 
 
 
 ### Move 17 (White): Nxd5 - Mistake ❓
 <p align="center"><img src="assets/move_033.png" alt="Board" width="400"></p>
-Nxd5 is a critical blunder because it sacrifices a full minor piece without any forced tactical compensation, immediately putting White at a severe material disadvantage. After Black's simple ...exd5, White has no meaningful follow-up attack, while Black solidifies their center with a strong pawn on d5 and gains an open e-file, significantly improving their position and prospects.
+By playing `Nxd5`, White walks directly into a self-inflicted tactical disaster, placing the knight on a square where it is completely pinned along the long diagonal by Black's light-squared bishop on b7. This blunder allows Black to easily win decisive material, as any recapture on d5 exploits the vulnerable alignment of White's queen on f3 and the pinned f6-bishop. Instead, the prophylactic `Rfe1` was necessary to maintain the central tension, mobilize White's last passive piece, and keep the knight safe from these devastating tactical geometries.
 
 
 
@@ -217,7 +217,7 @@ Played **Qh3**.
 
 ### Move 18 (Black): Kg7 - Blunder ❌
 <p align="center"><img src="assets/move_036.png" alt="Board" width="400"></p>
-Kg7 is a blunder because it immediately exposes Black's king to a decisive attack. By moving the king to g7, Black removes the vital h-pawn's cover and crucially allows White to force open the g-file with a precise sequence starting with Qxf6. After the recapture, White's rooks gain devastating access to the g-file, leaving Black's king with no escape and facing an overwhelming attack.
+By playing 18...Kg7 instead of the prophylaxis of 18...Qc7, Black critically ignores the latent X-ray pressure of the d1-rook pointing directly at the undefended queen on d8. This allows White to immediately seize the initiative with the tactical strike **c4**, exploiting the pin on the d5-bishop to dismantle Black’s central coordination and win material. Stepping the queen off the vulnerable d-file was a paramount necessity to neutralize this threat and preserve Black’s otherwise commanding position.
 
 
 

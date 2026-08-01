@@ -43,7 +43,7 @@ Played **g6**. The engine recommended **e5**.
 
 ### Move 4 (White): Nf3 - Good 👍
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **Nf3**. The engine recommended **f4**.
+Played **Nf3**. The engine recommended **Be3**.
 
 
 
@@ -55,7 +55,7 @@ Played **Bg7**.
 
 ### Move 5 (White): Bc4 - Good 👍
 <p align="center"><img src="assets/move_009.png" alt="Board" width="400"></p>
-Played **Bc4**. The engine recommended **Be2**.
+Played **Bc4**. The engine recommended **Be3**.
 
 
 
@@ -67,7 +67,7 @@ Played **O-O**.
 
 ### Move 6 (White): e5 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
-Played **e5**. The engine recommended **O-O**.
+Played **e5**. The engine recommended **Bb3**.
 
 
 
@@ -85,7 +85,7 @@ Played **Nxe5**.
 
 ### Move 7 (Black): Be6 - Mistake ❓
 <p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
-Be6 is a critical blunder as it allows White to immediately win material. After `dxe6`, White's pawn on e6 attacks both Black's knight on f6 and rook on f8, forcing Black to lose a knight for only a pawn. This decisive tactical oversight leaves Black with a significant material and positional disadvantage.
+By playing ...Be6, Black invites an immediate Bxe6 trade that permanently shatters their pawn structure, leaving behind weak, doubled e-pawns that will act as long-term strategic targets. Instead of neutralizing White's dominant e5-knight with the active ...Nfd7, Black has voluntarily accepted a static positional weakness. White can now easily coordinate their pieces to pressure the backward e7 and isolated e6 pawns, gaining total control over the center.
 
 
 
@@ -113,9 +113,9 @@ Played **Nd5**. The engine recommended **c5**.
 
 
 
-### Move 10 (White): Nxd5 - Inaccuracy ⁈
+### Move 10 (White): Nxd5 - Mistake ❓
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Played **Nxd5**. The engine recommended **Ne4**.
+By playing `Nxd5`, you throw away your positional advantage by allowing Black to recapture with `...exd5`, which instantly undoubles their e-pawns and cures their primary structural weakness. Maintaining your knight on the dominant `e4` outpost would have kept Black permanently cramped and saddled with those weak pawns, preserving White's long-term strategic grip on the position.
 
 
 
@@ -137,21 +137,21 @@ Played **Nc6**.
 
 
 
-### Move 12 (White): c3 - Good 👍
+### Move 12 (White): c3 - Best Move ✅
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Played **c3**. The engine recommended **Bh6**.
+Played **c3**.
 
 
 
-### Move 12 (Black): e5 - Best Move ✅
+### Move 12 (Black): e5 - Good 👍
 <p align="center"><img src="assets/move_024.png" alt="Board" width="400"></p>
-Played **e5**.
+Played **e5**. The engine recommended **h5**.
 
 
 
-### Move 13 (White): Bh6 - Mistake ❓
+### Move 13 (White): Bh6 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_025.png" alt="Board" width="400"></p>
-Bh6 is a mistake as it critically weakens White's kingside pawn structure, removing a crucial defender and exposing the g-file around the king. This move immediately allows Black to gain tempo with ...g5, forcing White's active knight on g4 to retreat and further opening lines for Black's attack. The exposed bishop on h6 becomes vulnerable and lacks meaningful targets, leaving White defensively compromised without any compensatory advantage.
+Played **Bh6**. The engine recommended **Nxe5**.
 
 
 
@@ -187,7 +187,7 @@ Played **Qg5**. The engine recommended **Rf4**.
 
 ### Move 16 (White): Ne5 - Mistake ❓
 <p align="center"><img src="assets/move_031.png" alt="Board" width="400"></p>
-Ne5 is a grave tactical blunder as it places the knight on an undefended square directly attacked by Black's powerful queen on g5. This allows the immediate ...Qxe5, costing White a full piece and granting Black a decisive material advantage. Instead, a move like g3 would have secured the kingside and maintained the balance, avoiding such a costly oversight.
+By leaping to e5, White commits a serious tactical oversight that allows Black to liquidate the minor pieces with **16...Nxe5 17. dxe5 Qxe5**, pocketing a vital central pawn for absolutely no compensation. Instead, **16. Ne3** was positionally essential, keeping the knight beautifully centralized to blockade the position, eye the weaknesses on d5 and f5, and maintain a solid, equal game.
 
 
 
@@ -197,9 +197,9 @@ Played **Nxe5**.
 
 
 
-### Move 17 (White): dxe5 - Best Move ✅
+### Move 17 (White): dxe5 - Good 👍
 <p align="center"><img src="assets/move_033.png" alt="Board" width="400"></p>
-Played **dxe5**.
+Played **dxe5**. The engine recommended **h4**.
 
 
 
@@ -211,7 +211,7 @@ Played **Qxe5**.
 
 ### Move 18 (White): Re1 - Good 👍
 <p align="center"><img src="assets/move_035.png" alt="Board" width="400"></p>
-Played **Re1**. The engine recommended **b4**.
+Played **Re1**. The engine recommended **Qd2**.
 
 
 
@@ -221,7 +221,7 @@ Played **Qxb2**.
 
 
 
-### Move 19 (White): Re7+ - Good 👍
+### Move 19 (White): Re7+ - Inaccuracy ⁈
 <p align="center"><img src="assets/move_037.png" alt="Board" width="400"></p>
 Played **Re7+**. The engine recommended **Re2**.
 
@@ -229,7 +229,7 @@ Played **Re7+**. The engine recommended **Re2**.
 
 ### Move 19 (Black): Kg8 - Mistake ❓
 <p align="center"><img src="assets/move_038.png" alt="Board" width="400"></p>
-Black's move **Kg8** immediately creates a critical vulnerability on the g-file, allowing White's powerful tactical blow **Rxg7+**. This forces the king to recapture, opening up the entire kingside and leaving the king gravely exposed to a devastating attack from White's queen and remaining rook. By contrast, keeping the king on h8 with **Kh8** would have maintained a much safer king position and prevented this immediate tactical collapse.
+By opting for g8 over h8, Black allows White to capture the d5-pawn with check (`Qxd5+`), gifting White a vital tempo to activate their queen and defend. This diagonal check completely defuses Black's lethal mating threat on f2, forcing Black onto the defensive just as they were commanding the game. Had the king stepped to the safety of h8, White would have had no check, forcing them to passively address the pressure on f2 rather than executing this powerful counter-strike.
 
 
 
@@ -247,9 +247,7 @@ Played **Kh8**.
 
 ### Move 21 (White): Rae1 - Blunder ❌
 <p align="center"><img src="assets/move_041.png" alt="Board" width="400"></p>
-White's move `Rae1` is a devastating blunder because it leaves the king on g1 fatally exposed to a back-rank mate. By moving the rook to e1, White's f1 and h1 squares become undefended from Black's active queen on b2, while the king is already trapped behind its own pawns on f2, g2, and h2. This allows Black to play `1... Qxb1+`, forcing White to sacrifice the Re1 with `2. Rb1`, after which `2... Qxb1#` delivers a swift back-rank checkmate.
-
-The recommended move `Rf1` would have prevented this disaster by occupying the f1 square, thus allowing the King an escape path to h1 (as Qb1 does not control h1) and breaking Black's immediate mating sequence.
+By opting for `Rae1` instead of the vital defensive retreat `Rf1`, White fatally underestimates the vulnerability of the f2-pawn, which is targeted by Black's coordinated queen-and-rook battery. Without a rook anchoring the f-file, White is instantly defenseless against a forced back-rank checkmate starting with `...Qxf2+` and culminating in `...Qf1+`.
 
 
 
