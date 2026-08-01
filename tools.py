@@ -21,10 +21,12 @@ def fetch_commentary(task):
     except Exception as e:
         return task['index'], f"Error getting deep commentary: {str(e)}"
 
-def generate_game_report(username: str, game_index: int = 0) -> str:
+def generate_game_report(username: str, game_index: int = 0, game_type: str = 'all') -> str:
     """Fetches a game, evaluates all moves, generates images, and writes a full markdown report to disk.
     This is extremely fast because it processes deep LLM commentary in parallel.
     Call this once per game.
+    
+    game_type can be 'all', 'rated', or 'unrated'.
     """
     headers = {'User-Agent': 'ChessAnalyzerBot/1.0 (https://github.com/KlayersBot/chess-analyzer)'}
     archives_url = f"https://api.chess.com/pub/player/{username}/games/archives"
@@ -51,30 +53,36 @@ def generate_game_report(username: str, game_index: int = 0) -> str:
         games = games_resp.json().get('games', [])
         for game in reversed(games):
             if game.get('rules') == 'chess' and game.get('pgn'):
-                valid_games.append(game['pgn'])
+                is_rated = game.get('rated', True)
+                if game_type == 'rated' and not is_rated:
+                    continue
+                if game_type in ['unrated', 'casual'] and is_rated:
+                    continue
+                valid_games.append((game['pgn'], is_rated))
                 if len(valid_games) > game_index:
                     break
         if len(valid_games) > game_index:
             break
             
     if len(valid_games) <= game_index:
-        return json.dumps({"error": f"Could not find game at index {game_index}."})
+        return json.dumps({"error": f"Could not find game of type '{game_type}' at index {game_index}."})
         
-    pgn_string = valid_games[game_index]
+    pgn_string, is_rated = valid_games[game_index]
     pgn = io.StringIO(pgn_string)
     game = chess.pgn.read_game(pgn)
     
-    game_dir = os.path.join("games", f"{username}_{game_index}")
+    game_dir = os.path.join("games", f"{username}_{game_type}_{game_index}")
     assets_dir = os.path.join(game_dir, "assets")
     os.makedirs(assets_dir, exist_ok=True)
-    report_filename = os.path.join(game_dir, f"report_{username}_{game_index}.md")
+    report_filename = os.path.join(game_dir, f"report_{username}_{game_type}_{game_index}.md")
     
     metadata = {
         "White": game.headers.get('White', '?'),
         "Black": game.headers.get('Black', '?'),
         "Result": game.headers.get('Result', '?'),
         "Date": game.headers.get('Date', '?'),
-        "Opening": game.headers.get('ECOUrl', '').split('/')[-1].replace('-', ' ') if game.headers.get('ECOUrl') else 'Unknown'
+        "Opening": game.headers.get('ECOUrl', '').split('/')[-1].replace('-', ' ') if game.headers.get('ECOUrl') else 'Unknown',
+        "Type": "Rated" if is_rated else "Casual (Unrated)"
     }
     
     player_color = chess.WHITE if metadata["White"].lower() == username.lower() else chess.BLACK
@@ -225,7 +233,8 @@ Provide a short, deeply insightful 2-3 sentence commentary on WHY this move was 
         f"# Chess Game Analysis: {metadata['White']} vs {metadata['Black']}\n",
         f"- **Result:** {metadata['Result']}",
         f"- **Date:** {metadata['Date']}",
-        f"- **Opening:** {metadata['Opening']}\n"
+        f"- **Opening:** {metadata['Opening']}",
+        f"- **Type:** {metadata['Type']}\n"
     ]
 
     for data in analyzed_moves:
