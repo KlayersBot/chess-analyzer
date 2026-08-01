@@ -31,7 +31,7 @@ Played **Nf6**. The engine recommended **Nc6**.
 
 ### Move 3 (White): Nc3 - Good 👍
 <p align="center"><img src="assets/move_005.png" alt="Board" width="400"></p>
-Played **Nc3**. The engine recommended **d4**.
+Played **Nc3**. The engine recommended **Nxe5**.
 
 
 
@@ -59,15 +59,15 @@ Played **d3**. The engine recommended **d4**.
 
 
 
-### Move 5 (Black): Bc5 - Good 👍
+### Move 5 (Black): Bc5 - Best Move ✅
 <p align="center"><img src="assets/move_010.png" alt="Board" width="400"></p>
-Played **Bc5**. The engine recommended **Bb4**.
+Played **Bc5**.
 
 
 
 ### Move 6 (White): O-O - Good 👍
 <p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
-Played **O-O**. The engine recommended **a3**.
+Played **O-O**. The engine recommended **Be3**.
 
 
 
@@ -113,9 +113,9 @@ Played **Ng4**. The engine recommended **Bg4**.
 
 
 
-### Move 10 (White): h3 - Good 👍
+### Move 10 (White): h3 - Best Move ✅
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Played **h3**. The engine recommended **d4**.
+Played **h3**.
 
 
 
@@ -125,15 +125,15 @@ Played **Nf6**.
 
 
 
-### Move 11 (White): d4 - Good 👍
+### Move 11 (White): d4 - Best Move ✅
 <p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
-Played **d4**. The engine recommended **Re1**.
+Played **d4**.
 
 
 
-### Move 11 (Black): Nxd4 - Inaccuracy ⁈
+### Move 11 (Black): Nxd4 - Good 👍
 <p align="center"><img src="assets/move_022.png" alt="Board" width="400"></p>
-Played **Nxd4**. The engine recommended **Nxe4**.
+Played **Nxd4**. The engine recommended **O-O**.
 
 
 
@@ -157,7 +157,7 @@ Played **Qxd4**.
 
 ### Move 13 (Black): h5 - Mistake ❓
 <p align="center"><img src="assets/move_026.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's h5 is a critical mistake as it dangerously weakens the kingside pawns around the still-uncastled king, creating potential targets and opening lines without any compensatory development. This move squanders a crucial tempo that should have been spent on securing the king with O-O or developing the remaining major pieces, leaving Black's king highly exposed to White's already active queen and bishop.
 
 
 

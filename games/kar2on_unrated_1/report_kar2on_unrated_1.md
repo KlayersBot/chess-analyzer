@@ -55,13 +55,13 @@ Played **fxe6**.
 
 ### Move 5 (White): Nc3 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_009.png" alt="Board" width="400"></p>
-Played **Nc3**. The engine recommended **d4**.
+Played **Nc3**. The engine recommended **c3**.
 
 
 
 ### Move 5 (Black): d5 - Mistake ❓
 <p align="center"><img src="assets/move_010.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's `...d5` in this French Advance setup is a mistake because it passively reinforces an already cramped central pawn structure, allowing White to maintain a significant space advantage and central control with the e5 pawn. Instead of timidly solidifying a restricted position, Black should actively undermine White's pawn chain with the typical `...c5` break, directly challenging the d4 square and creating counterplay for improved piece mobility.
 
 
 
@@ -89,13 +89,13 @@ Played **Nf6**.
 
 
 
-### Move 8 (White): d4 - Good 👍
+### Move 8 (White): d4 - Best Move ✅
 <p align="center"><img src="assets/move_015.png" alt="Board" width="400"></p>
-Played **d4**. The engine recommended **Qe2**.
+Played **d4**.
 
 
 
-### Move 8 (Black): Nbd7 - Good 👍
+### Move 8 (Black): Nbd7 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_016.png" alt="Board" width="400"></p>
 Played **Nbd7**. The engine recommended **Bd6**.
 
@@ -109,13 +109,13 @@ Played **Qe2**.
 
 ### Move 9 (Black): Bd6 - Blunder ❌
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+The move Bd6 is a blunder because it immediately enables White's decisive central break with **dxe5**. This initiates a forced tactical sequence where both of Black's recapture options lead to significant material loss. If Black plays **...Nxe5**, White delivers **Qxe5+**, forcing a block or king move, and then wins the h8-rook with **Qxh8**; alternatively, if Black plays **...Bxe5**, White can play **Nf7+**, forking the king and queen, and again winning the h8-rook after **Nxh8**.
 
 
 
 ### Move 10 (White): Nf7+ - Blunder ❌
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Despite the alluring appearance of a triple fork, White's Nf7+ is a profound blunder because the knight is immediately lost for insufficient compensation. This tactical miscalculation liquidates White's substantial advantage, handing Black a decisive material and positional edge. The premature sacrifice leaves White's active pieces disconnected and lacks any compelling follow-up threats, thereby transforming a winning position into a losing one.
 
 
 
@@ -125,9 +125,9 @@ Played **Kxf7**.
 
 
 
-### Move 11 (White): O-O - Inaccuracy ⁈
+### Move 11 (White): O-O - Mistake ❓
 <p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
-Played **O-O**. The engine recommended **Nxd5**.
+White's O-O is a significant positional mistake, as it's a tempo-losing move that allows Black to consolidate their exposed king on f7, surrendering a critical opportunity. The recommended Nxd5 would have immediately removed the crucial f6 knight, a key defender, creating tactical weaknesses and maintaining intense pressure against Black's uncastled monarch, a chance White now misses.
 
 
 
@@ -137,9 +137,9 @@ Played **Re8**.
 
 
 
-### Move 12 (White): Qf3 - Best Move ✅
+### Move 12 (White): Qf3 - Good 👍
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Played **Qf3**.
+Played **Qf3**. The engine recommended **Qd3**.
 
 
 
@@ -161,9 +161,9 @@ Played **Qe4**.
 
 
 
-### Move 14 (White): Qxe4 - Good 👍
+### Move 14 (White): Qxe4 - Best Move ✅
 <p align="center"><img src="assets/move_027.png" alt="Board" width="400"></p>
-Played **Qxe4**. The engine recommended **Ne3**.
+Played **Qxe4**.
 
 
 
@@ -175,7 +175,7 @@ Played **Nxe4**. The engine recommended **Rxe4**.
 
 ### Move 15 (White): Nf6 - Mistake ❓
 <p align="center"><img src="assets/move_029.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+The move Nf6 is a severe tactical blunder as it immediately hangs the White Knight, allowing Black to capture it for free with either Nd7xf6 or Ne4xf6. This direct loss of a full Knight without any compensation fundamentally cripples White's position, as it provides no counterplay or positional improvements to offset such a significant material deficit and consequently shifts the game into a decisively losing state.
 
 
 

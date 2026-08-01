@@ -31,13 +31,13 @@ Played **Nf6**.
 
 ### Move 3 (White): Bc4 - Mistake ❓
 <p align="center"><img src="assets/move_005.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Playing `3. Bc4` is a tactical blunder that immediately leaves the central e4 pawn undefended, allowing Black's forceful `3...Nxe4`. White is then faced with the unpleasant choice of either losing a pawn for nothing or further weakening their position and tempo by having to move the bishop again after Black's `...Nf6` re-attack. This grants Black a significant material and developmental advantage right out of the opening.
 
 
 
 ### Move 3 (Black): g6 - Mistake ❓
 <p align="center"><img src="assets/move_006.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's g6 is a significant mistake because it completely misses the crucial tactical opportunity to capture White's undefended e4 pawn with 3...Nxe4. This active capture would have forced White into difficult, defensive lines, creating imbalances and granting Black a substantial initiative through development and potential pawn structure advantages. Instead, g6 is a slow, passive move that allows White to easily consolidate their central pawn on e4 with d3 or Nc3, thus squandering Black's early advantage and turning a favorable position into one where White gains the upper hand.
 
 
 
@@ -91,7 +91,7 @@ Played **Nbd7**. The engine recommended **Nfd7**.
 
 ### Move 8 (White): Nxf7 - Mistake ❓
 <p align="center"><img src="assets/move_015.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+The Nxf7 sacrifice is a critical mistake because White gives up a full Knight for only a pawn without sufficient compensation. While the move exposes Black's king, White lacks the immediate, forceful follow-up or decisive attacking pieces required to create a mating threat or regain the sacrificed material. This leaves White significantly down a piece with no adequate compensation, allowing Black to consolidate their extra material and eventually convert the advantage.
 
 
 
@@ -121,7 +121,7 @@ Played **O-O**.
 
 ### Move 10 (Black): b6 - Good 👍
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Played **b6**. The engine recommended **Nf8**.
+Played **b6**. The engine recommended **Nb6**.
 
 
 
@@ -157,13 +157,13 @@ Played **d5**. The engine recommended **Rad1**.
 
 ### Move 13 (Black): Nxd5 - Mistake ❓
 <p align="center"><img src="assets/move_026.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's `13... Nxd5` is a severe tactical blunder as it captures a pawn on d5 but leaves the newly positioned knight completely undefended. White can simply recapture this knight with either `14. Nxd5` (using the c3-Knight) or `14. Qxd5` (using the e2-Queen), winning a full knight for a pawn. This material gain for White (a net +2 points) creates a decisive advantage, significantly weakening Black's position and opening lines for White's attack.
 
 
 
 ### Move 14 (White): Qf3+ - Blunder ❌
 <p align="center"><img src="assets/move_027.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Qf3+ is a blunder because it immediately forces Black's King to the safer g8 square, simultaneously leaving White's actively placed Bishop on g5 completely undefended. After Black's necessary retreat with ...Kg8, White's Bishop is lost to a simple capture by Black's knight on d5, surrendering significant material for no compensation. This tactical oversight drastically shifts the evaluation, turning a strong position for White into a losing one.
 
 
 
@@ -181,25 +181,25 @@ Played **Rad1**. The engine recommended **Bxf6**.
 
 ### Move 15 (Black): e6 - Mistake ❓
 <p align="center"><img src="assets/move_030.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's e6 is a critical mistake that immediately allows White to launch a decisive attack with the tactical shot **Bxe6!**. This bishop sacrifice forces a recapture that exposes Black's already vulnerable king and opens the f-file, enabling White to follow with Rd6 and a devastating rook sacrifice on f6. This forced sequence leads to a losing material exchange or an unstoppable checkmate, completely squandering Black's previously strong position.
 
 
 
-### Move 16 (White): Bxf6 - Mistake ❓
+### Move 16 (White): Bxf6 - Blunder ❌
 <p align="center"><img src="assets/move_031.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+White's move `Bxf6` is a blunder because it sacrifices a valuable bishop for just a pawn without adequate compensation. While it temporarily opens the f-file and forces Black's King to move (e.g., after `16... Kxf6 17. Qxf6+ Ke7`), White lacks the immediate, forcing follow-up attacks to capitalize on the exposed monarch. Consequently, Black's King finds relative safety, leaving White a piece down for only a pawn, a significant material deficit that Black can convert into a winning advantage.
 
 
 
 ### Move 16 (Black): Bxf6 - Mistake ❓
 <p align="center"><img src="assets/move_032.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's `Bxf6` was a mistake primarily because it exchanged away a crucial dark-squared bishop, weakening the critical dark squares around the exposed King on f7. With White's Queen on f3 and Rook on f1 aggressively targeting the f-file, Black needed to preserve the defensive and dynamic potential of their dark-squared bishop to maintain king safety and tactical flexibility. Capturing with the Queen (had it been possible, as indicated by the engine) would have retained this vital piece.
 
 
 
 ### Move 17 (White): Nxd5 - Mistake ❓
 <p align="center"><img src="assets/move_033.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Nxd5 is a critical blunder because it sacrifices a full minor piece without any forced tactical compensation, immediately putting White at a severe material disadvantage. After Black's simple ...exd5, White has no meaningful follow-up attack, while Black solidifies their center with a strong pawn on d5 and gains an open e-file, significantly improving their position and prospects.
 
 
 
@@ -217,7 +217,7 @@ Played **Qh3**.
 
 ### Move 18 (Black): Kg7 - Blunder ❌
 <p align="center"><img src="assets/move_036.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Kg7 is a blunder because it immediately exposes Black's king to a decisive attack. By moving the king to g7, Black removes the vital h-pawn's cover and crucially allows White to force open the g-file with a precise sequence starting with Qxf6. After the recapture, White's rooks gain devastating access to the g-file, leaving Black's king with no escape and facing an overwhelming attack.
 
 
 

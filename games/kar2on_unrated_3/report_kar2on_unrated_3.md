@@ -35,9 +35,9 @@ Played **Nd2**. The engine recommended **Nc3**.
 
 
 
-### Move 3 (Black): g6 - Best Move ✅
+### Move 3 (Black): g6 - Good 👍
 <p align="center"><img src="assets/move_006.png" alt="Board" width="400"></p>
-Played **g6**.
+Played **g6**. The engine recommended **e5**.
 
 
 
@@ -109,7 +109,7 @@ Played **Bc4**. The engine recommended **Bb5+**.
 
 ### Move 9 (Black): O-O - Good 👍
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
-Played **O-O**. The engine recommended **Nc6**.
+Played **O-O**. The engine recommended **Bg7**.
 
 
 
@@ -121,7 +121,7 @@ Played **O-O**. The engine recommended **Qe2**.
 
 ### Move 10 (Black): Be6 - Mistake ❓
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's Be6 is a tactical blunder, immediately exposed to White's Bc4. White can simply capture the bishop with Bxe6, forcing Black's queen to recapture on e6. This centralizes Black's queen prematurely, making it a vulnerable target for White's developing knights (e.g., Nd4), costing Black crucial tempi and hindering their development.
 
 
 
@@ -139,6 +139,6 @@ Played **fxe6**.
 
 ### Move 12 (White): Qf3 - Blunder ❌
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Qf3 is a blunder because it immediately exposes White's queen to attack, allowing Black to gain crucial tempo and launch a devastating kingside offensive. Black can play **...Nc6**, attacking the undefended queen and forcing it to retreat, likely to an awkward square like h3, where it then becomes a target for Black's **...g5** pawn push. This opens the g-file for Black's rook, ripping apart White's kingside defenses and leading to a forced and overwhelming attack.
 
 

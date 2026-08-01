@@ -43,7 +43,7 @@ Played **g6**. The engine recommended **e5**.
 
 ### Move 4 (White): Nf3 - Good 👍
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **Nf3**. The engine recommended **h3**.
+Played **Nf3**. The engine recommended **f4**.
 
 
 
@@ -67,7 +67,7 @@ Played **O-O**.
 
 ### Move 6 (White): e5 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
-Played **e5**. The engine recommended **Bb3**.
+Played **e5**. The engine recommended **O-O**.
 
 
 
@@ -85,7 +85,7 @@ Played **Nxe5**.
 
 ### Move 7 (Black): Be6 - Mistake ❓
 <p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Be6 is a critical blunder as it allows White to immediately win material. After `dxe6`, White's pawn on e6 attacks both Black's knight on f6 and rook on f8, forcing Black to lose a knight for only a pawn. This decisive tactical oversight leaves Black with a significant material and positional disadvantage.
 
 
 
@@ -113,9 +113,9 @@ Played **Nd5**. The engine recommended **c5**.
 
 
 
-### Move 10 (White): Nxd5 - Mistake ❓
+### Move 10 (White): Nxd5 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Played **Nxd5**. The engine recommended **Ne4**.
 
 
 
@@ -131,15 +131,15 @@ Played **Ng4**. The engine recommended **Re1**.
 
 
 
-### Move 11 (Black): Nc6 - Good 👍
+### Move 11 (Black): Nc6 - Best Move ✅
 <p align="center"><img src="assets/move_022.png" alt="Board" width="400"></p>
-Played **Nc6**. The engine recommended **h5**.
+Played **Nc6**.
 
 
 
-### Move 12 (White): c3 - Best Move ✅
+### Move 12 (White): c3 - Good 👍
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Played **c3**.
+Played **c3**. The engine recommended **Bh6**.
 
 
 
@@ -149,9 +149,9 @@ Played **e5**.
 
 
 
-### Move 13 (White): Bh6 - Inaccuracy ⁈
+### Move 13 (White): Bh6 - Mistake ❓
 <p align="center"><img src="assets/move_025.png" alt="Board" width="400"></p>
-Played **Bh6**. The engine recommended **dxe5**.
+Bh6 is a mistake as it critically weakens White's kingside pawn structure, removing a crucial defender and exposing the g-file around the king. This move immediately allows Black to gain tempo with ...g5, forcing White's active knight on g4 to retreat and further opening lines for Black's attack. The exposed bishop on h6 becomes vulnerable and lacks meaningful targets, leaving White defensively compromised without any compensatory advantage.
 
 
 
@@ -161,9 +161,9 @@ Played **exd4**. The engine recommended **Bxh6**.
 
 
 
-### Move 14 (White): Bxg7 - Best Move ✅
+### Move 14 (White): Bxg7 - Good 👍
 <p align="center"><img src="assets/move_027.png" alt="Board" width="400"></p>
-Played **Bxg7**.
+Played **Bxg7**. The engine recommended **cxd4**.
 
 
 
@@ -187,7 +187,7 @@ Played **Qg5**. The engine recommended **Rf4**.
 
 ### Move 16 (White): Ne5 - Mistake ❓
 <p align="center"><img src="assets/move_031.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Ne5 is a grave tactical blunder as it places the knight on an undefended square directly attacked by Black's powerful queen on g5. This allows the immediate ...Qxe5, costing White a full piece and granting Black a decisive material advantage. Instead, a move like g3 would have secured the kingside and maintained the balance, avoiding such a costly oversight.
 
 
 
@@ -211,7 +211,7 @@ Played **Qxe5**.
 
 ### Move 18 (White): Re1 - Good 👍
 <p align="center"><img src="assets/move_035.png" alt="Board" width="400"></p>
-Played **Re1**. The engine recommended **Rc1**.
+Played **Re1**. The engine recommended **b4**.
 
 
 
@@ -221,7 +221,7 @@ Played **Qxb2**.
 
 
 
-### Move 19 (White): Re7+ - Inaccuracy ⁈
+### Move 19 (White): Re7+ - Good 👍
 <p align="center"><img src="assets/move_037.png" alt="Board" width="400"></p>
 Played **Re7+**. The engine recommended **Re2**.
 
@@ -229,7 +229,7 @@ Played **Re7+**. The engine recommended **Re2**.
 
 ### Move 19 (Black): Kg8 - Mistake ❓
 <p align="center"><img src="assets/move_038.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's move **Kg8** immediately creates a critical vulnerability on the g-file, allowing White's powerful tactical blow **Rxg7+**. This forces the king to recapture, opening up the entire kingside and leaving the king gravely exposed to a devastating attack from White's queen and remaining rook. By contrast, keeping the king on h8 with **Kh8** would have maintained a much safer king position and prevented this immediate tactical collapse.
 
 
 
@@ -247,7 +247,9 @@ Played **Kh8**.
 
 ### Move 21 (White): Rae1 - Blunder ❌
 <p align="center"><img src="assets/move_041.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+White's move `Rae1` is a devastating blunder because it leaves the king on g1 fatally exposed to a back-rank mate. By moving the rook to e1, White's f1 and h1 squares become undefended from Black's active queen on b2, while the king is already trapped behind its own pawns on f2, g2, and h2. This allows Black to play `1... Qxb1+`, forcing White to sacrifice the Re1 with `2. Rb1`, after which `2... Qxb1#` delivers a swift back-rank checkmate.
+
+The recommended move `Rf1` would have prevented this disaster by occupying the f1 square, thus allowing the King an escape path to h1 (as Qb1 does not control h1) and breaking Black's immediate mating sequence.
 
 
 

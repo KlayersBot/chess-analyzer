@@ -29,9 +29,9 @@ Played **Nf6**.
 
 
 
-### Move 3 (White): Nc3 - Good 👍
+### Move 3 (White): Nc3 - Best Move ✅
 <p align="center"><img src="assets/move_005.png" alt="Board" width="400"></p>
-Played **Nc3**. The engine recommended **Bd3**.
+Played **Nc3**.
 
 
 
@@ -43,7 +43,7 @@ Played **g6**. The engine recommended **e5**.
 
 ### Move 4 (White): Bg5 - Good 👍
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **Bg5**. The engine recommended **Be2**.
+Played **Bg5**. The engine recommended **f4**.
 
 
 
@@ -85,7 +85,7 @@ Played **Rxd1**.
 
 ### Move 7 (Black): Ng4 - Mistake ❓
 <p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's `Ng4` is a significant mistake as it vacates the f6 square, critically weakening the kingside and leaving the uncastled king exposed. White can immediately exploit this with `8. e6`, which initiates a forced sequence leading to decisive material gain. For example, after `8...fxe6 9. Nxe6`, White forks Black's Queen and Rook, securing a full Rook and a winning advantage.
 
 
 
@@ -107,21 +107,21 @@ Played **Nd5**.
 
 
 
-### Move 9 (Black): Na6 - Mistake ❓
+### Move 9 (Black): Na6 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Played **Na6**. The engine recommended **O-O**.
 
 
 
-### Move 10 (White): f4 - Blunder ❌
+### Move 10 (White): f4 - Mistake ❓
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+White's f4 is a serious tactical blunder, immediately losing a pawn without compensation. The advanced f4-pawn is undefended and falls directly to Black's active knight on e5. This material loss further exacerbates White's already exposed King position on e1, opening the e-file and severely weakening the f2 square, leaving White strategically worse with a permanent material disadvantage.
 
 
 
 ### Move 10 (Black): Nc6 - Mistake ❓
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
+Black's 10...Nc6 is a grave tactical blunder because it allows White to unleash the devastating sacrifice 11.Nf6+. This forces Black to choose between losing the Queen immediately (after 11...Ke7 12.Nxd8) or surrendering an exchange (Rook for Knight) and exposing their king to a relentless attack after 11...gxf6 12.Bxf6. This creates an immediate and decisive material deficit along with irreparable positional damage to Black's kingside.
 
 
 
