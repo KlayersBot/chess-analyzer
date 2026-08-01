@@ -10,9 +10,27 @@ from resvg_python import svg_to_png
 from google import genai
 import concurrent.futures
 
+def get_gemini_api_key():
+    if os.environ.get("GEMINI_API_KEY"):
+        return os.environ.get("GEMINI_API_KEY")
+    if os.environ.get("GOOGLE_API_KEY"):
+        return os.environ.get("GOOGLE_API_KEY")
+    try:
+        config_path = "/home/sa_107806444890271851399/.openclaw/openclaw.json"
+        if os.path.exists(config_path):
+            with open(config_path, "r") as f:
+                config = json.load(f)
+                key = config.get("models", {}).get("providers", {}).get("google", {}).get("apiKey")
+                if key:
+                    return key
+    except Exception:
+        pass
+    return None
+
 def fetch_commentary(task):
     try:
-        client = genai.Client()
+        api_key = get_gemini_api_key()
+        client = genai.Client(api_key=api_key)
         response = client.models.generate_content(
             model='gemini-2.5-pro',
             contents=task['prompt'],

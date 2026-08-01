@@ -35,15 +35,15 @@ Played **Nd2**. The engine recommended **Nc3**.
 
 
 
-### Move 3 (Black): g6 - Good 👍
+### Move 3 (Black): g6 - Best Move ✅
 <p align="center"><img src="assets/move_006.png" alt="Board" width="400"></p>
-Played **g6**. The engine recommended **e5**.
+Played **g6**.
 
 
 
 ### Move 4 (White): e5 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **e5**. The engine recommended **Bc4**.
+Played **e5**. The engine recommended **Ngf3**.
 
 
 
@@ -65,7 +65,7 @@ Played **Ng4**.
 
 
 
-### Move 6 (White): h3 - Good 👍
+### Move 6 (White): h3 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
 Played **h3**. The engine recommended **Ngf3**.
 
@@ -113,15 +113,15 @@ Played **O-O**. The engine recommended **Nc6**.
 
 
 
-### Move 10 (White): O-O - Best Move ✅
+### Move 10 (White): O-O - Good 👍
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Played **O-O**.
+Played **O-O**. The engine recommended **Qe2**.
 
 
 
 ### Move 10 (Black): Be6 - Mistake ❓
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
@@ -139,6 +139,6 @@ Played **fxe6**.
 
 ### Move 12 (White): Qf3 - Blunder ❌
 <p align="center"><img src="assets/move_023.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 

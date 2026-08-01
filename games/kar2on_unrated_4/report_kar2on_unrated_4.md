@@ -19,7 +19,7 @@ Played **Nf6**.
 
 ### Move 2 (White): Bf4 - Good 👍
 <p align="center"><img src="assets/move_003.png" alt="Board" width="400"></p>
-Played **Bf4**. The engine recommended **Nf3**.
+Played **Bf4**. The engine recommended **c4**.
 
 
 
@@ -35,15 +35,15 @@ Played **e3**. The engine recommended **Nc3**.
 
 
 
-### Move 3 (Black): g6 - Best Move ✅
+### Move 3 (Black): g6 - Good 👍
 <p align="center"><img src="assets/move_006.png" alt="Board" width="400"></p>
-Played **g6**.
+Played **g6**. The engine recommended **c6**.
 
 
 
 ### Move 4 (White): Bd3 - Good 👍
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **Bd3**. The engine recommended **Nf3**.
+Played **Bd3**. The engine recommended **Nc3**.
 
 
 
@@ -61,19 +61,19 @@ Played **h4**. The engine recommended **Nf3**.
 
 ### Move 5 (Black): Nc6 - Good 👍
 <p align="center"><img src="assets/move_010.png" alt="Board" width="400"></p>
-Played **Nc6**. The engine recommended **Nbd7**.
+Played **Nc6**. The engine recommended **c5**.
 
 
 
 ### Move 6 (White): Nf3 - Good 👍
 <p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
-Played **Nf3**. The engine recommended **Bg5**.
+Played **Nf3**. The engine recommended **Nc3**.
 
 
 
 ### Move 6 (Black): b6 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_012.png" alt="Board" width="400"></p>
-Played **b6**. The engine recommended **Nb4**.
+Played **b6**. The engine recommended **O-O**.
 
 
 
@@ -85,7 +85,7 @@ Played **c3**. The engine recommended **Nc3**.
 
 ### Move 7 (Black): Bb7 - Good 👍
 <p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
-Played **Bb7**. The engine recommended **O-O**.
+Played **Bb7**. The engine recommended **h6**.
 
 
 
@@ -95,15 +95,15 @@ Played **Nbd2**.
 
 
 
-### Move 8 (Black): Nh5 - Good 👍
+### Move 8 (Black): Nh5 - Best Move ✅
 <p align="center"><img src="assets/move_016.png" alt="Board" width="400"></p>
-Played **Nh5**. The engine recommended **Qd7**.
+Played **Nh5**.
 
 
 
-### Move 9 (White): Bh2 - Best Move ✅
+### Move 9 (White): Bh2 - Good 👍
 <p align="center"><img src="assets/move_017.png" alt="Board" width="400"></p>
-Played **Bh2**.
+Played **Bh2**. The engine recommended **Qe2**.
 
 
 
@@ -119,9 +119,9 @@ Played **dxe5**. The engine recommended **g4**.
 
 
 
-### Move 10 (Black): Nxe5 - Best Move ✅
+### Move 10 (Black): Nxe5 - Good 👍
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Played **Nxe5**.
+Played **Nxe5**. The engine recommended **dxe5**.
 
 
 
@@ -131,9 +131,9 @@ Played **Nxe5**.
 
 
 
-### Move 11 (Black): Bxe5 - Best Move ✅
+### Move 11 (Black): Bxe5 - Good 👍
 <p align="center"><img src="assets/move_022.png" alt="Board" width="400"></p>
-Played **Bxe5**.
+Played **Bxe5**. The engine recommended **dxe5**.
 
 
 
@@ -151,7 +151,7 @@ Played **dxe5**.
 
 ### Move 13 (White): Qc2 - Mistake ❓
 <p align="center"><img src="assets/move_025.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
@@ -167,7 +167,7 @@ Played **Rg1**.
 
 
 
-### Move 14 (Black): Bb7 - Good 👍
+### Move 14 (Black): Bb7 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_028.png" alt="Board" width="400"></p>
 Played **Bb7**. The engine recommended **Bc6**.
 
@@ -187,7 +187,7 @@ Played **Kf8**.
 
 ### Move 16 (White): Qc2 - Mistake ❓
 <p align="center"><img src="assets/move_031.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
@@ -205,13 +205,13 @@ Played **O-O-O**.
 
 ### Move 17 (Black): Qxf2 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_034.png" alt="Board" width="400"></p>
-Played **Qxf2**. The engine recommended **Kg7**.
+Played **Qxf2**. The engine recommended **Rd8**.
 
 
 
-### Move 18 (White): Rde1 - Inaccuracy ⁈
+### Move 18 (White): Rde1 - Mistake ❓
 <p align="center"><img src="assets/move_035.png" alt="Board" width="400"></p>
-Played **Rde1**. The engine recommended **Be4**.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
@@ -235,7 +235,7 @@ Played **Qh4**.
 
 ### Move 20 (White): Kb1 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_039.png" alt="Board" width="400"></p>
-Played **Kb1**. The engine recommended **Nc4**.
+Played **Kb1**. The engine recommended **Bc4**.
 
 
 
@@ -257,27 +257,27 @@ Played **Kg7**.
 
 
 
-### Move 22 (White): e4 - Good 👍
+### Move 22 (White): e4 - Best Move ✅
 <p align="center"><img src="assets/move_043.png" alt="Board" width="400"></p>
-Played **e4**. The engine recommended **Ka1**.
+Played **e4**.
 
 
 
-### Move 22 (Black): Rhe8 - Good 👍
+### Move 22 (Black): Rhe8 - Best Move ✅
 <p align="center"><img src="assets/move_044.png" alt="Board" width="400"></p>
-Played **Rhe8**. The engine recommended **Qf4**.
+Played **Rhe8**.
 
 
 
 ### Move 23 (White): Nf3 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_045.png" alt="Board" width="400"></p>
-Played **Nf3**. The engine recommended **b4**.
+Played **Nf3**. The engine recommended **c4**.
 
 
 
-### Move 23 (Black): Qg4 - Mistake ❓
+### Move 23 (Black): Qg4 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_046.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Played **Qg4**. The engine recommended **Qf4**.
 
 
 
@@ -289,13 +289,13 @@ Played **Nh2**.
 
 ### Move 24 (Black): Qg5 - Blunder ❌
 <p align="center"><img src="assets/move_048.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
 ### Move 25 (White): Nf3 - Blunder ❌
 <p align="center"><img src="assets/move_049.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 

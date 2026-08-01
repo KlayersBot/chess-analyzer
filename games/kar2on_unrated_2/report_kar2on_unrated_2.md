@@ -29,9 +29,9 @@ Played **Nf6**.
 
 
 
-### Move 3 (White): Nc3 - Best Move ✅
+### Move 3 (White): Nc3 - Good 👍
 <p align="center"><img src="assets/move_005.png" alt="Board" width="400"></p>
-Played **Nc3**.
+Played **Nc3**. The engine recommended **Bd3**.
 
 
 
@@ -43,17 +43,17 @@ Played **g6**. The engine recommended **e5**.
 
 ### Move 4 (White): Bg5 - Good 👍
 <p align="center"><img src="assets/move_007.png" alt="Board" width="400"></p>
-Played **Bg5**. The engine recommended **f4**.
+Played **Bg5**. The engine recommended **Be2**.
 
 
 
-### Move 4 (Black): Bg7 - Best Move ✅
+### Move 4 (Black): Bg7 - Good 👍
 <p align="center"><img src="assets/move_008.png" alt="Board" width="400"></p>
-Played **Bg7**.
+Played **Bg7**. The engine recommended **c6**.
 
 
 
-### Move 5 (White): e5 - Inaccuracy ⁈
+### Move 5 (White): e5 - Good 👍
 <p align="center"><img src="assets/move_009.png" alt="Board" width="400"></p>
 Played **e5**. The engine recommended **Qd2**.
 
@@ -85,7 +85,7 @@ Played **Rxd1**.
 
 ### Move 7 (Black): Ng4 - Mistake ❓
 <p align="center"><img src="assets/move_014.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
@@ -107,21 +107,21 @@ Played **Nd5**.
 
 
 
-### Move 9 (Black): Na6 - Inaccuracy ⁈
+### Move 9 (Black): Na6 - Mistake ❓
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
-Played **Na6**. The engine recommended **O-O**.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
 ### Move 10 (White): f4 - Blunder ❌
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
 ### Move 10 (Black): Nc6 - Mistake ❓
 <p align="center"><img src="assets/move_020.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 

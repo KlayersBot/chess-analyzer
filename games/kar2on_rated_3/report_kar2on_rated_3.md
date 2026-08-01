@@ -53,21 +53,21 @@ Played **h6**. The engine recommended **Nxe4**.
 
 
 
-### Move 5 (White): d3 - Inaccuracy ⁈
+### Move 5 (White): d3 - Good 👍
 <p align="center"><img src="assets/move_009.png" alt="Board" width="400"></p>
 Played **d3**. The engine recommended **d4**.
 
 
 
-### Move 5 (Black): Bc5 - Best Move ✅
+### Move 5 (Black): Bc5 - Good 👍
 <p align="center"><img src="assets/move_010.png" alt="Board" width="400"></p>
-Played **Bc5**.
+Played **Bc5**. The engine recommended **Bb4**.
 
 
 
 ### Move 6 (White): O-O - Good 👍
 <p align="center"><img src="assets/move_011.png" alt="Board" width="400"></p>
-Played **O-O**. The engine recommended **Be3**.
+Played **O-O**. The engine recommended **a3**.
 
 
 
@@ -107,15 +107,15 @@ Played **a3**. The engine recommended **c3**.
 
 
 
-### Move 9 (Black): Ng4 - Good 👍
+### Move 9 (Black): Ng4 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_018.png" alt="Board" width="400"></p>
 Played **Ng4**. The engine recommended **Bg4**.
 
 
 
-### Move 10 (White): h3 - Best Move ✅
+### Move 10 (White): h3 - Good 👍
 <p align="center"><img src="assets/move_019.png" alt="Board" width="400"></p>
-Played **h3**.
+Played **h3**. The engine recommended **d4**.
 
 
 
@@ -125,15 +125,15 @@ Played **Nf6**.
 
 
 
-### Move 11 (White): d4 - Best Move ✅
+### Move 11 (White): d4 - Good 👍
 <p align="center"><img src="assets/move_021.png" alt="Board" width="400"></p>
-Played **d4**.
+Played **d4**. The engine recommended **Re1**.
 
 
 
-### Move 11 (Black): Nxd4 - Good 👍
+### Move 11 (Black): Nxd4 - Inaccuracy ⁈
 <p align="center"><img src="assets/move_022.png" alt="Board" width="400"></p>
-Played **Nxd4**. The engine recommended **O-O**.
+Played **Nxd4**. The engine recommended **Nxe4**.
 
 
 
@@ -157,7 +157,7 @@ Played **Qxd4**.
 
 ### Move 13 (Black): h5 - Mistake ❓
 <p align="center"><img src="assets/move_026.png" alt="Board" width="400"></p>
-Error getting deep commentary: No API key was provided. Please pass a valid API key. Learn how to create an API key at https://ai.google.dev/gemini-api/docs/api-key.
+Error getting deep commentary: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use a newer model for the latest features and improvements.', 'status': 'NOT_FOUND'}}
 
 
 
